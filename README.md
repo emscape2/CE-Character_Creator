@@ -24,8 +24,7 @@ After starting the game instead of going to the harbor the character creator wil
   - defend, 
   - mental, 
   - roulette die (all 6 normal sides)
-- one page to pick positive perk
-  - extra die
+- one page to pick positive perk:
   - waterproof perk
 - one to pick negative perk
 - two to recruit followers
