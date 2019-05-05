@@ -25,8 +25,16 @@ After starting the game instead of going to the harbor the character creator wil
   - mental, 
   - roulette die (all 6 normal sides)
 - one page to pick positive perk:
-  - waterproof perk
-- one to pick negative perk
+  - authorative leader
+  - healer
+  - inhuman strength
+  - holy marking
+  - animal whisperer
+  - preacher
+- one to pick ailment:
+  - malaria
+  - cannibalism (for machosists)
+  - 
 - two to recruit followers
 Afterwards the game will continue normally.
 
