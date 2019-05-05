@@ -31,11 +31,15 @@ After starting the game instead of going to the harbor the character creator wil
   - holy marking
   - animal whisperer
   - preacher
-- one to pick ailment:
+- one to pick ailment, if ailment is picked one extra perk may be chosen:
   - malaria
-  - cannibalism (for machosists)
-  - 
-- two to recruit followers
+  - hearing loss
+  - viewing loss
+  - hallucinations
+-  recruit followers:
+  - one animal (buffalo, donkey, scouting dog)
+  - one native (scout, animal handler, warrior)
+  - one harbor recruit
 Afterwards the game will continue normally.
 
 
