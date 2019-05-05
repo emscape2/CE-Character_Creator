@@ -9,7 +9,7 @@ This will add 20 different customisable character templates. These can be picked
   - extra die
   - gun and scouting dog
   - polyglot
-  - lizzardman die
+  - lizzardman warrior attack die
 
 
 After starting the game instead of going to the harbor the character creator will start:
@@ -20,6 +20,7 @@ After starting the game instead of going to the harbor the character creator wil
   - shaman, 
 - one page to pick positive perk
   - extra die
+  - waterproof perk
   - if oriental exploration is enabled option to select martial artist die
 - one to pick negative perk
 - two to recruit followers
