@@ -3,7 +3,7 @@ Character creator for the Curious Expedition.
 
 
 Functions:
-- 20 different character templates
+This will add 20 different customisable character templates. These can be picked in the character selection and customised afterwards.
 - 10 for initial version, slightly different starting stats:
   - 6 extra health
   - extra die
@@ -16,3 +16,4 @@ After starting the game instead of going to the harbor the character creator wil
 - one page to pick positive perk
 - one to pick negative perk
 - two to recruit followers
+Afterwards the game will continue normally.
