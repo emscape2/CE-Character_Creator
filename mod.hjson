@@ -1,0 +1,53 @@
+{
+  modInfo:
+  {
+    id: CharacterCreator
+    name: Character Creator
+    authors: Emscape #needs to be uploader
+    version: "1.0"
+    defaultLang: en
+    preview: emsc-preview.png
+    description: txt-emsc-modinfo-oo
+    mail: emiel@silverentand.eu
+  },
+  spriteSheets:[
+  #sprite sheets entered here
+  ],
+  imageData:[
+  #imageData
+    {
+      id: emsc-preview.png
+      file: CharacterCreator/images/preview.png
+    }
+
+	#Characters
+	    {
+      import: CharacterCreator/src/emsc-oo-character-image.hjson
+    }
+	#Shongs
+	
+	#Event Background
+	
+  ],
+  configSettings:{
+    sounds: {
+	#Songs
+    }
+  }
+  modEntries:[
+    # Explorers
+	
+	# Events
+	
+	# Statusses 
+	
+	# Characters
+    
+	# Perks
+    
+	# Items
+    
+	# Dices
+    
+  ]
+}
