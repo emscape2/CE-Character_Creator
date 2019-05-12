@@ -21,21 +21,17 @@
     }
 
 	#Characters
-	    {
-      import: CharacterCreator/src/emsc-oo-character-image.hjson
-    }
-	#Shongs
 	
 	#Event Background
 	
   ],
   configSettings:{
     sounds: {
-	#Songs
+	  #Songs
     }
   }
   modEntries:[
-    # Explorers
+  # Explorers
 	
 	# Events
 	
