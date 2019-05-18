@@ -40,6 +40,9 @@
 	# Events
 	{
       import: CharacterCreator/Src/Events/emsc-cc-statselection.hjson
+  },
+  {
+      import: CharacterCreator/Src/Events/emsc-cc-statselection-pages.hjson
   }
 
 	# Items

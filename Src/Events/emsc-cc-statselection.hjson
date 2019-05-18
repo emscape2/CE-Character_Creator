@@ -1,18 +1,54 @@
 [
+
     {
-        #start perk selection page, for now it runs at any character
-	    id: evt-emsc-cc-perkselector
-	    text: "succesfully injected test event."
-        actions: [
+        #injects the character creation to the harbour, for now it runs at any time you enter the harbour. 
+        targetId: *evt-harbor*
+        select: evt-emsc-cc-startcharcreator
+    },
+    {
+        #this event ensures the char creation process is only triggered when entering the first time the player embarks on an expedition, even if this would not be expedition 1.
+        id: evt-emsc-cc-startcharcreator
+        select: 
+        [
             {
-                actionText: "Continue."
-	            select: evt-harbor-eventSelection
+                optional: true
+                reqPartyFlags: -charCreator-Finished
+                select: evt-emsc-cc-charcreator
+            },
+            {
+                select: evt-harbor-eventSelection
+            }
+        ]
+    }
+    {
+        #This starts the varying screens for the character creation. At the moment it only runs a misc event, and afterwards continues the harbor events.
+	    id: evt-emsc-cc-charcreator
+	    text: "succesfully injected test event."
+        partyEvents:[
+            #inject more pages here
+            {
+                optional: true
+                reqPartyFlags: +charCreator-dicechoice #ensures players get pages in the correct order.
+                select: evt-emsc-cc-continuetoharbor
+            },
+            {
+                optional: true
+                reqPartyFlags: -charCreator-dicechoice
+                select: evt-emsc-cc-charcreator-dicechoice
             }
         ]
     },
     {
-        #injects the character creation to the harbour, for now it runs at any time you enter the harbour. 
-        targetId: *evt-harbor*
-        select: evt-emsc-cc-perkselector
+        #after this event proceed as normally with the harbor events
+        id: evt-emsc-cc-continuetoharbor
+        text: "Character creation succesful. You may embark on your journey now, and set sail to lands of great promise."
+        setPartyFlags: +charCreator-Finished
+        actions: [
+            {
+                actionText: "Continue to normal harbor."
+	            select: evt-harbor-eventSelection
+            }
+        ]
     }
+
 ]

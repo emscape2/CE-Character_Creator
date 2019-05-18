@@ -1,0 +1,17 @@
+[
+##################################################################
+# This file describes the setup of the stats selection pages for the character creator, and determines their execution order.
+###
+    {
+        ##sample page
+        id: evt-emsc-cc-charcreator-dicechoice
+        text: "Dice choice placeholder."
+        setPartyFlags: +charCreator-dicechoice
+        actions:[
+            {
+                actionText: "Continue."
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+]
