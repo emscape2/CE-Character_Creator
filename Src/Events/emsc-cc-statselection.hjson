@@ -1,5 +1,7 @@
 [
-
+##################################################################
+# This file describes the setup of the stats selection pages for the character creator, and determines their execution order.
+###
     {
         #injects the character creation to the harbour, for now it runs at any time you enter the harbour. 
         targetId: *evt-harbor*
