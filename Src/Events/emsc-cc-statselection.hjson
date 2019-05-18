@@ -1,0 +1,18 @@
+[
+    {
+        #start perk selection page, for now it runs at any character
+	    id: evt-emsc-cc-perkselector
+	    text: "succesfully injected test event."
+        actions: [
+            {
+                actionText: "Continue."
+	            select: evt-harbor-eventSelection
+            }
+        ]
+    },
+    {
+        #injects the character creation to the harbour, for now it runs at any time you enter the harbour. 
+        targetId: *evt-harbor*
+        select: evt-emsc-cc-perkselector
+    }
+]

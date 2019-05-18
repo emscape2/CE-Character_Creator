@@ -2,11 +2,11 @@
   modInfo:
   {
     id: CharacterCreator
-    name: Character Creator
-    authors: Emscape #needs to be uploader
+    name: "Character Creator"
+    authors: "Emscape" #needs to be uploader, so feel free to enter your steam name ;)
     version: "1.0"
     defaultLang: en
-    preview: emsc-preview.png
+    preview: emsc-cc-preview.png
     description: txt-emsc-modinfo-oo
     mail: emiel@silverentand.eu
   },
@@ -16,7 +16,7 @@
   imageData:[
   #imageData
     {
-      id: emsc-preview.png
+      id: emsc-cc-preview.png
       file: CharacterCreator/images/preview.png
     }
 
@@ -31,19 +31,22 @@
     }
   }
   modEntries:[
+	# Characters
+	
+	# Dice
+
   # Explorers
 	
 	# Events
+	{
+      import: CharacterCreator/Src/Events/emsc-cc-statselection.hjson
+  }
+
+	# Items
 	
-	# Statusses 
-	
-	# Characters
-    
 	# Perks
     
-	# Items
-    
-	# Dices
-    
+  # Statusses 
+      
   ]
 }
