@@ -5,12 +5,18 @@
     {
         ##sample page
         id: evt-emsc-cc-charcreator-dicechoice
-        text: "Dice choice placeholder."
+        text: "Were you rather normal, or someone special?."
         setPartyFlags: +charCreator-dicechoice
         actions:[
             {
-                actionText: "Continue."
+                actionText: "Normal (2 normal dice)"
                 select: evt-emsc-cc-charcreator
+                setPartyFlags: +charCreator-normal-dicechoice
+            }
+
+            {   actionText: "Special (1 normal, 1 special dice)"
+                select: evt-emsc-cc-charcreator
+                setPartyFlags: +charCreator-special-dicechoice
             }
         ]
     }
