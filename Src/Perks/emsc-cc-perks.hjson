@@ -1,0 +1,19 @@
+[
+  {
+    id: st-emsc-cc-roulette-die
+    title: "Roulette Die"
+    description: "Become a jack of all traits with this die."
+    debugCategory: Explorer Perk
+    sprite: res_status_leader.png
+    bonus: {dice: dc-emsc-cc-roulette}
+  }
+
+  {
+    id: st-emsc-cc-shaman-die
+    title: "Shaman Die"
+    description: "Become a shaman with this die."
+    debugCategory: Explorer Perk
+    sprite: res_status_polymath.png
+    bonus: {dice: dc-shaman-2}
+  }
+]

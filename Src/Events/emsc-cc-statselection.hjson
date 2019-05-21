@@ -30,8 +30,18 @@
             #inject more pages here
             {
                 optional: true
-                reqPartyFlags: +charCreator-dicechoice #ensures players get pages in the correct order.
+                reqPartyFlags: +charCreator-second-dicechoice #ensures players get pages in the correct order.
                 select: evt-emsc-cc-continuetoharbor
+            },
+            {
+                optional: true
+                reqPartyFlags: +charCreator-first-dicechoice -charCreator-second-dicechoice
+                select: evt-emsc-cc-charcreator-seconddiepage
+            },
+            {
+                optional: true
+                reqPartyFlags: +charCreator-dicechoice -charCreator-first-dicechoice
+                select: evt-emsc-cc-charcreator-firstdiepage
             },
             {
                 optional: true
