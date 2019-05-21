@@ -12,6 +12,7 @@
                 actionText: "Normal (2 normal dice)"
                 select: evt-emsc-cc-charcreator
                 setPartyFlags: +charCreator-normal-dicechoice
+                
             }
 
             {   actionText: "Special (1 normal, 1 special dice)"
@@ -20,4 +21,74 @@
             }
         ]
     }
+
+    {
+        #first page, depending on die type preceed with other event
+        id: evt-emsc-cc-charcreator-firstdiepage
+        setPartyFlags: +charCreator-first-dicechoice
+        select: [
+            {
+                reqPartyFlags: +charCreator-normal-dicechoice
+                select: evt-emsc-cc-charcreator-normaldiepage
+                optional: true
+            }
+            {
+                reqPartyFlags: +charCreator-special-dicechoice
+                select: evt-emsc-cc-charcreator-specialdiepage
+            }
+        ]
+    }
+
+    {
+        #second page, only normal die always
+        id: evt-emsc-cc-charcreator-seconddiepage
+        text: "Select your second die."
+        setPartyFlags: +charCreator-second-dicechoice
+        select: evt-emsc-cc-charcreator-normaldiepage
+    }
+
+
+    {
+        #special die selection page.
+        id: evt-emsc-cc-charcreator-specialdiepage
+        text: "Select a special die."
+        actions:[
+            {
+                actionText: "Shaman Die"
+                setStatus: +st-emsc-cc-shaman-die
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+
+    {
+        #normal die selection page, applies possibly twice.
+        id: evt-emsc-cc-charcreator-normaldiepage
+        text: "Select a Normal die."
+        actions:[
+            {
+                actionText: "Attack Die"
+                setStatus: +st-die-attack
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Defence Die"
+                setStatus: +st-die-defend
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Mind Die"
+                setStatus: +st-die-support
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Roulette Die (Contains all 6 sides)"
+                setStatus: +st-emsc-cc-roulette-die
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+
+    }
+
+    
 ]

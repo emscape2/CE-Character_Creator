@@ -1,0 +1,9 @@
+[
+  {
+    ##roulette die
+    id: dc-emsc-cc-roulette
+    sprite: hud_dice_bg_animal_2.png
+    faces: sword agility shield stability awarenes mind
+  }
+
+]

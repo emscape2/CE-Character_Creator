@@ -34,7 +34,9 @@
 	# Characters
 	
 	# Dice
-
+  {
+      import: CharacterCreator/Src/Dice/emsc-cc-dice.hjson
+  },
   # Explorers
 	
 	# Events
@@ -43,12 +45,14 @@
   },
   {
       import: CharacterCreator/Src/Events/emsc-cc-statsselection-pages.hjson
-  }
+  },
 
 	# Items
 	
 	# Perks
-    
+  {
+      import: CharacterCreator/Src/Perks/emsc-cc-perks.hjson
+  }
   # Statusses 
       
   ]
