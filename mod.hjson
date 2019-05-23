@@ -46,12 +46,18 @@
   {
       import: CharacterCreator/Src/Events/emsc-cc-statsselection-pages.hjson
   },
+  {
+      import: CharacterCreator/Src/Events/emsc-cc-statsselection-companions.hjson
+  },
 
 	# Items
 	
 	# Perks
   {
       import: CharacterCreator/Src/Perks/emsc-cc-perks.hjson
+  },
+  {
+      import: CharacterCreator/Src/Perks/emsc-cc-ailments.hjson
   }
   # Statusses 
       

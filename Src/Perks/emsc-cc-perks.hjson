@@ -16,4 +16,39 @@
     sprite: res_status_polymath.png
     bonus: {dice: dc-shaman-2}
   }
+{
+    id: st-emsc-cc-feihong-die
+    title: "Feihong Die"
+    description: "Become Feihong with this die."
+    debugCategory: Explorer Perk
+    sprite: res_status_preacher.png
+    bonus: {dice: dc-feihong}
+  }
+  
+{
+    id: st-emsc-cc-animalatk-die
+    title: "Agressive Shape Shifter"
+    description: "Gain shape shifter die."
+    debugCategory: Explorer Perk
+    sprite: res_status_preacher.png
+    bonus: {dice: dc-emsc-cc-beastatk}
+  } 
+{
+    id: st-emsc-cc-animaldef-die
+    title: "Defensive Shape Shifter"
+    description: "Gain shape shifter die."
+    debugCategory: Explorer Perk
+    sprite: res_status_preacher.png
+    bonus: {dice: dc-emsc-cc-beastdef}
+  }
+
+   
+{
+    #this should be attached to the explorers which use character creation
+    id: st-emsc-cc-customChar
+    title: "Character Creator"
+    description: "Customize the abilities and perks of this character."
+    debugCategory: Explorer Perk
+    sprite: res_status_preacher.png
+  }
 ]

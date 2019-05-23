@@ -58,6 +58,7 @@
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
+            #add other dice here
         ]
     }
 
@@ -87,8 +88,77 @@
                 select: evt-emsc-cc-charcreator
             }
         ]
-
     }
 
+    {
+        #perk selection page.
+        id: evt-emsc-cc-charcreator-perkpage
+        setPartyFlags: +charCreator-perkchoice
+        text: "Select a perk."
+        actions:[
+            {
+                actionText: "Authorative Leader"
+                setStatus: +st-naturalLeader
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Healer"
+                setStatus: +st-healer
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Inhuman Strength"
+                setStatus: +st-blessingInhumanStrength
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Holy Marking"
+                setStatus: +st-blessingHoly
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Animal Whisperer"
+                setStatus: +st-animalWhisperer
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Preacher"
+                setStatus: +st-preacher
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+{
+        #ailment selection page.
+        id: evt-emsc-cc-charcreator-ailmentpage
+        setPartyFlags: +charCreator-ailmentchoice-start
+        text: "Select an ailment, you can pick a second perk if you pick an ailment."
+        actions:[
+            {
+                actionText: "None"
+                setPartyFlags: +charCreator-ailmentchoice-finished
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Chronic malaria"
+                setStatus: +st-emsc-cc-malaria-permanent
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Bad ears"
+                setStatus: +st-emsc-cc-hearingLoss-permanent
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Bad eyesight"
+                setStatus: +st-emsc-cc-viewingLoss-permanent
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select: evt-emsc-cc-charcreator
+            }
+            #insert hallucinations here
+        ]
+    }
     
 ]
