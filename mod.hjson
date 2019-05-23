@@ -47,7 +47,7 @@
       import: CharacterCreator/Src/Events/emsc-cc-statsselection-pages.hjson
   },
   {
-      import: CharacterCreator/Src/Events/emsc-cc-statsselection-companions.hjson
+      import: CharacterCreator/Src/Events/emsc-cc-statselection-companions.hjson
   },
 
 	# Items
