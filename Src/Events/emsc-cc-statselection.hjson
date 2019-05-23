@@ -16,6 +16,7 @@
                 prio:1
                 optional: true
                 reqPartyFlags: -charCreator-Finished
+                showImage: {src: evt_spec_ship_1.png}
                 select: evt-emsc-cc-charcreator
             },
             {
@@ -27,13 +28,27 @@
     {
         #This starts the varying screens for the character creation. At the moment it only runs a misc event, and afterwards continues the harbor events.
 	    id: evt-emsc-cc-charcreator
-	    text: "succesfully injected test event."
+	    text: "succesfully injected test event." #this should at one point be replaced with a summary of your decisions.
         partyEvents:[
             #inject more pages here
             {
                 optional: true
-                reqPartyFlags: +charCreator-perkchoice #ensures players get pages in the correct order.
+                reqPartyFlags: +charCreator-ailmentchoice-finished #ensures players get pages in the correct order.
                 select: evt-emsc-cc-continuetoharbor
+            },
+            {
+                #if ailment selected, pick extra bonus
+                optional: true
+                reqPartyFlags: -charCreator-ailmentchoice-finished +charCreator-ailmentchoice-start +charCreator-ailmentchoice-ailment
+                text: "Because you selected an ailment, you get to pick an extra perk."
+                setPartyFlags: +charCreator-ailmentchoice-finished
+                select: evt-emsc-cc-charcreator-perkpage
+            }
+            {
+                #pick ailment
+                optional: true
+                reqPartyFlags: +charCreator-perkchoice -charCreator-ailmentchoice-start
+                select: evt-emsc-cc-charcreator-ailmentpage
             },
             {
                 #pick perk

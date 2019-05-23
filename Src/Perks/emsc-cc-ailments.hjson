@@ -1,0 +1,36 @@
+[
+    
+  {
+    #copy from malaria status, but without time limit
+    id: st-emsc-cc-malaria-permanent
+    debugCategory: ailment
+    title: txt-st-malaria-title
+    description: txt-st-malaria
+    sprite: res_status_fever.png
+    flags: +ailment +affliction
+    bonus: {tripCost: 0.25, healthRegen: -0.5}    
+  }
+
+  {
+    #copy from hearing loss, but permanent
+    id: st-emsc-cc-hearingLoss-permanent
+    title: txt-st-hearingLoss-title
+    debugCategory: ailment
+    sprite: res_status_hearingLoss.png
+    flags: +ailment
+    bonus: {combatRoll: -1}
+  }
+
+
+  {
+    #copy from viewing loss, but permanent
+    id: st-emsc-cc-viewingLoss-permanent
+    title: txt-st-viewingLoss-title
+    sprite: res_status_viewingLoss.png
+    flags: +ailment
+    bonus: {viewDist: -0.4}
+    debugCategory: ailment
+  }
+
+
+]

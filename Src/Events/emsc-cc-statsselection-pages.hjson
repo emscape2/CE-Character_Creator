@@ -95,7 +95,7 @@
 
 
     {
-        #special die selection page.
+        #perk selection page.
         id: evt-emsc-cc-charcreator-perkpage
         setPartyFlags: +charCreator-perkchoice
         text: "Select a perk."
@@ -132,7 +132,37 @@
             }
         ]
     }
-
-
+{
+        #ailment selection page.
+        id: evt-emsc-cc-charcreator-ailmentpage
+        setPartyFlags: +charCreator-ailmentchoice-start
+        text: "Select an ailment, you can pick a second perk if you pick an ailment."
+        actions:[
+            {
+                actionText: "None"
+                setPartyFlags: +charCreator-ailmentchoice-finished
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Chronic malaria"
+                setStatus: +st-emsc-cc-malaria-permanent
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Bad ears"
+                setStatus: +st-emsc-cc-hearingLoss-permanent
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Bad eyesight"
+                setStatus: +st-emsc-cc-viewingLoss-permanent
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select: evt-emsc-cc-charcreator
+            }
+            #insert hallucinations here
+        ]
+    }
     
 ]
