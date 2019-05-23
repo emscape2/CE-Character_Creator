@@ -41,4 +41,14 @@
     sprite: res_status_preacher.png
     bonus: {dice: dc-emsc-cc-beastdef}
   }
+
+   
+{
+    #this should be attached to the explorers which use character creation
+    id: st-emsc-cc-customChar
+    title: "Character Creator"
+    description: "Customize the abilities and perks of this character."
+    debugCategory: Explorer Perk
+    sprite: res_status_preacher.png
+  }
 ]

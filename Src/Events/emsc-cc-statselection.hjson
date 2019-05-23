@@ -34,6 +34,7 @@
             {
                 optional: true
                 reqPartyFlags: +charCreator-ailmentchoice-finished #ensures players get pages in the correct order.
+                removeStatus: st-emsc-cc-customChar
                 select: evt-emsc-cc-continuetoharbor
             },
             {
@@ -43,7 +44,7 @@
                 text: "Because you selected an ailment, you get to pick an extra perk."
                 setPartyFlags: +charCreator-ailmentchoice-finished
                 select: evt-emsc-cc-charcreator-perkpage
-            }
+            },
             {
                 #pick ailment
                 optional: true
