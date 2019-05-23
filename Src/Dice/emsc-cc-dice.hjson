@@ -6,4 +6,16 @@
     faces: sword agility shield stability awarenes mind
   }
 
+  {
+    ##Beast Attack die
+    id: dc-emsc-cc-beastatk
+    sprite: hud_dice_bg_animal_2.png
+    faces: stomp hoof smash horns claw_2 blank
+  }
+  {
+    ##Beast Defence die
+    id: dc-emsc-cc-beastdef
+    sprite: hud_dice_bg_animal_2.png
+    faces: teeth spider_1 shell tail taunt blank
+  }
 ]

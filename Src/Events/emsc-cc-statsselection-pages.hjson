@@ -58,6 +58,7 @@
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
+            #add other dice here
         ]
     }
 
@@ -89,6 +90,49 @@
         ]
 
     }
+
+
+
+
+    {
+        #special die selection page.
+        id: evt-emsc-cc-charcreator-perkpage
+        setPartyFlags: +charCreator-perkchoice
+        text: "Select a perk."
+        actions:[
+            {
+                actionText: "Authorative Leader"
+                setStatus: +st-naturalLeader
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Healer"
+                setStatus: +st-healer
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Inhuman Strength"
+                setStatus: +st-blessingInhumanStrength
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Holy Marking"
+                setStatus: +st-blessingHoly
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Animal Whisperer"
+                setStatus: +st-animalWhisperer
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Preacher"
+                setStatus: +st-preacher
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+
 
     
 ]

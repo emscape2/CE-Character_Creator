@@ -13,11 +13,13 @@
         select: 
         [
             {
+                prio:1
                 optional: true
                 reqPartyFlags: -charCreator-Finished
                 select: evt-emsc-cc-charcreator
             },
             {
+                prio:2
                 select: evt-harbor-eventSelection
             }
         ]
@@ -30,8 +32,14 @@
             #inject more pages here
             {
                 optional: true
-                reqPartyFlags: +charCreator-second-dicechoice #ensures players get pages in the correct order.
+                reqPartyFlags: +charCreator-perkchoice #ensures players get pages in the correct order.
                 select: evt-emsc-cc-continuetoharbor
+            },
+            {
+                #pick perk
+                optional: true
+                reqPartyFlags: +charCreator-second-dicechoice -charCreator-perkchoice 
+                select: evt-emsc-cc-charcreator-perkpage
             },
             {
                 optional: true
