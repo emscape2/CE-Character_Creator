@@ -38,11 +38,11 @@ After starting the game instead of going to the harbor the character creator wil
   - hallucinations
 -  recruit followers:
   - one animal (buffalo, donkey, scouting dog)
-  - one native (scout, animal handler, warrior)
+  - one native (scout, animal handler, warrior, if 2 normal dice also shaman )
   - one harbor recruit
 Afterwards the game will continue normally.
 
 Suggestions:
 - option to instead of extra perk recruit lizardman
-
+- Introvert perk. Gives 30 more sanity but lowers party limit by 2, gives only animals for starting recruits.
 
