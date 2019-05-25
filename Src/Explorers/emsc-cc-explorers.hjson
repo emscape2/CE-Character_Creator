@@ -1,0 +1,32 @@
+[
+
+  {
+    id: sp-emsc-cc-base
+    isAbstract: true
+    health: 4
+    bonus: {capacity: 2}
+    flags: +special +humanoid
+    debugCategory: Creator
+  }
+
+  {
+    id: sp-emsc-cc-diplomat
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: ee_face_jargo.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+]

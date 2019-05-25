@@ -38,7 +38,9 @@
       import: CharacterCreator/Src/Dice/emsc-cc-dice.hjson
   },
   # Explorers
-	
+	{
+      import: CharacterCreator/Src/Explorers/emsc-cc-explorers.hjson
+  },
 	# Events
 	{
       import: CharacterCreator/Src/Events/emsc-cc-statselection.hjson

@@ -16,6 +16,7 @@
                 prio:1
                 optional: true
                 reqPartyFlags: -charCreator-Finished
+                reqStatus: +st-emsc-cc-customChar #ensures only custom characters open the character customization
                 showImage: {src: evt_spec_ship_1.png}
                 select: evt-emsc-cc-charcreator
             },
@@ -33,9 +34,23 @@
             #inject more pages here
             {
                 optional: true
-                reqPartyFlags: +charCreator-ailmentchoice-finished #ensures players get pages in the correct order.
-                removeStatus: st-emsc-cc-customChar
+                reqPartyFlags: +charCreator-animalchoice #ensures players get pages in the correct order.
                 select: evt-emsc-cc-continuetoharbor
+            }, 
+            {
+                optional: true
+                reqPartyFlags: +charCreator-nativechoice -charCreator-animalchoice #ensures players get pages in the correct order.
+                select: evt-emsc-cc-recruitanimal
+            }, 
+            {
+                optional: true
+                reqPartyFlags: +charCreator-localchoice -charCreator-nativechoice #ensures players get pages in the correct order.
+                select: evt-emsc-cc-recruitnative
+            },
+            {
+                optional: true
+                reqPartyFlags: +charCreator-ailmentchoice-finished -charCreator-localchoice #ensures players get pages in the correct order.
+                select: evt-emsc-cc-recruitlocal
             },
             {
                 #if ailment selected, pick extra bonus
