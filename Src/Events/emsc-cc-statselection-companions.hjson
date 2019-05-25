@@ -6,8 +6,8 @@
         actions:
         [
             {
-                actionText: "Recruit Donkey."
-                addCharacter: anm-donkey
+                actionText: "Recruit Water Buffalo."
+                addCharacter: anm-waterBuffalo
                 select: evt-emsc-cc-charcreator
             }
             {
@@ -56,10 +56,10 @@
         text: "You may now pick an local to recruit to your party."
         setPartyFlags: +charCreator-localchoice
         partyEvents:[ #still need to implement mechanism to avoid duplicates
-            { select:  evt-emsc-cc-recruitlocalselect } #always have one soldier
-            { select:  evt-emsc-cc-recruitlocalselect } #always have one utility
-            { select:  evt-emsc-cc-recruitlocalselect } 
-            { select:  evt-emsc-cc-recruitlocalselect }
+            { select:  evt-emsc-cc-recruitlocalselectsoldier } #always have one soldier
+            { select:  evt-emsc-cc-recruitlocalselectutility } #always have one utility
+            { select:  evt-emsc-cc-recruitlocalselectreport } #always have one reporter / journalist
+            { select:  evt-emsc-cc-recruitlocalselectcommunicator } #always have one communicator
             { select:  evt-emsc-cc-recruitlocalselect }
         ]
     }
@@ -68,6 +68,9 @@
         select:
         [
             evt-emsc-cc-recruitlocalselectsoldier
+            evt-emsc-cc-recruitlocalselectutility
+            evt-emsc-cc-recruitlocalselectreport
+            evt-emsc-cc-recruitlocalselectcommunicator
         ]
     }
 
@@ -112,5 +115,116 @@
         ]
     }
 
+    #utilityrecruitment
+    {
+        id: evt-emsc-cc-recruitlocalselectutility
+        select:
+        [
+            evt-emsc-cc-recruitlocalcultist
+            evt-emsc-cc-recruitlocalcook
+            evt-emsc-cc-recruitlocalsailor
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalcultist
+        actions: [
+            {
+            actionText: "Recruit Cultist"
+            addCharacter: pl-cultist
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalcook
+        actions: [
+            {
+            actionText: "Recruit Cook"
+            addCharacter: pl-cook
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalsailor
+        actions: [
+            {
+            actionText: "Recruit Sailor"
+            addCharacter: pl-sailor
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    
+    #communicator
+    {
+        id: evt-emsc-cc-recruitlocalselectcommunicator
+        select:
+        [
+            evt-emsc-cc-recruitlocalmissionary
+            evt-emsc-cc-recruitlocaltrader
+            evt-emsc-cc-recruitlocaltranslator
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalmissionary
+        actions: [
+            {
+            actionText: "Recruit Missionary"
+            addCharacter: pl-missionary
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocaltrader
+        actions: [
+            {
+            actionText: "Recruit Trader"
+            addCharacter: pl-trader
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocaltranslator
+        actions: [
+            {
+            actionText: "Recruit Translator"
+            addCharacter: pl-translator
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+
+#report / journalist
+    {
+        id: evt-emsc-cc-recruitlocalselectreport
+        select:
+        [
+            evt-emsc-cc-recruitlocalartist
+            evt-emsc-cc-recruitlocaljournalist
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalartist
+        actions: [
+            {
+            actionText: "Recruit Artist"
+            addCharacter: pl-artist
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocaljournalist
+        actions: [
+            {
+            actionText: "Recruit Journalist"
+            addCharacter: pl-tim
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
 
 ]
