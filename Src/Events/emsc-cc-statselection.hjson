@@ -16,6 +16,7 @@
                 prio:1
                 optional: true
                 reqPartyFlags: -charCreator-Finished
+                reqStatus: +st-emsc-cc-customChar #ensures only custom characters open the character customization
                 showImage: {src: evt_spec_ship_1.png}
                 select: evt-emsc-cc-charcreator
             },
@@ -34,7 +35,6 @@
             {
                 optional: true
                 reqPartyFlags: +charCreator-ailmentchoice-finished #ensures players get pages in the correct order.
-                removeStatus: st-emsc-cc-customChar
                 select: evt-emsc-cc-continuetoharbor
             },
             {
