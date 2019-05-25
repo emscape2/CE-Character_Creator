@@ -1,4 +1,116 @@
 [
+    {
+        id: evt-emsc-cc-recruitanimal
+        text: "You may now pick an animal to recruit to your party."
+        setPartyFlags: +charCreator-animalchoice
+        actions:
+        [
+            {
+                actionText: "Recruit Donkey."
+                addCharacter: anm-donkey
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Recruit Arctic Wolf."
+                addCharacter: anm-wolf-arctic
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Recruit Scouting Dog."
+                addCharacter: anm-dog-luis
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitnative
+        text: "You may now pick a native to recruit to your party."
+        setPartyFlags: +charCreator-nativechoice
+        actions:
+        [
+            {
+                actionText: "Recruit Warrior."
+                addCharacter: pl-native-starting-warrior
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Recruit Animal Handler."
+                addCharacter: pl-native-starting-animalHandler
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Recruit Scout."
+                addCharacter: pl-native-starting-scout
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Recruit Shaman."
+                reqPartyFlags: +charCreator-normal-dicechoice #only do so when selecting normal dice to not become op.
+                addCharacter: pl-native-starting-shaman
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocal
+        text: "You may now pick an local to recruit to your party."
+        setPartyFlags: +charCreator-localchoice
+        partyEvents:[ #still need to implement mechanism to avoid duplicates
+            { select:  evt-emsc-cc-recruitlocalselect } #always have one soldier
+            { select:  evt-emsc-cc-recruitlocalselect } #always have one utility
+            { select:  evt-emsc-cc-recruitlocalselect } 
+            { select:  evt-emsc-cc-recruitlocalselect }
+            { select:  evt-emsc-cc-recruitlocalselect }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalselect
+        select:
+        [
+            evt-emsc-cc-recruitlocalselectsoldier
+        ]
+    }
 
-    
+    #soldier recruit steps
+    {
+        id: evt-emsc-cc-recruitlocalselectsoldier
+        select:
+        [
+            evt-emsc-cc-recruitlocalsoldierbrit 
+            evt-emsc-cc-recruitlocalsoldierscot
+            evt-emsc-cc-recruitlocalmountaintrooper 
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalsoldierbrit
+        actions: [
+            {
+            actionText: "Recruit Brittish Soldier"
+            addCharacter: pl-soldier-british
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalsoldierscot
+        actions: [
+            {
+            actionText: "Recruit Scottish Soldier"
+            addCharacter: pl-soldier-scottish
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalmountaintrooper
+        actions: [
+            {
+            actionText: "Recruit Mountain Trooper"
+            addCharacter: pl-mountainTrooper
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+
+
 ]

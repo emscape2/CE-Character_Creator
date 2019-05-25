@@ -27,7 +27,6 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    characters: pl-native-starting-scout pl-translator anm-donkey
     items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
   }
 ]
