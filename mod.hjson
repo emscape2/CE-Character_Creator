@@ -31,6 +31,12 @@
     }
   }
   modEntries:[
+	# set flag so it is possible to see if mod is active when using other mods
+	{
+		targetId: +evt-harbor::partyEvents
+		setPartyFlags:	+emsc-cc-active
+	}
+
 	# Characters
 	
 	# Dice

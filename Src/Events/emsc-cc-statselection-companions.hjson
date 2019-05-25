@@ -55,7 +55,22 @@
         id: evt-emsc-cc-recruitlocal
         text: "You may now pick an local to recruit to your party."
         setPartyFlags: +charCreator-localchoice
-        partyEvents:[ #still need to implement mechanism to avoid duplicates
+        select:
+        [
+            {
+                prio: 1
+                reqStatus: -st-emsc-cc-introvert
+                select: evt-emsc-cc-recruitlocal-select
+            }
+            {
+                prio: 2
+                select: evt-emsc-cc-charcreator
+            }
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocal-select
+         partyEvents:[ #still need to implement mechanism to avoid duplicates
             { select:  evt-emsc-cc-recruitlocalselectsoldier } #always have one soldier
             { select:  evt-emsc-cc-recruitlocalselectutility } #always have one utility
             { select:  evt-emsc-cc-recruitlocalselectreport } #always have one reporter / journalist

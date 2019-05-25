@@ -42,7 +42,15 @@
     bonus: {dice: dc-emsc-cc-beastdef}
   }
 
-   
+{
+  id: st-emsc-cc-introvert
+  title: "Introvered"
+  description: "Have very high sanity, but keep small track size."
+  sprite: res_status_preacher.png
+  bonus: {maxUnitCount: -2, maxSanity: 35}
+}
+
+
 {
     #this should be attached to the explorers which use character creation
     id: st-emsc-cc-customChar

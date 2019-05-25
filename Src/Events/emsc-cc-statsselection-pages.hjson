@@ -66,7 +66,7 @@
                 select: evt-emsc-cc-charcreator
 
             }
-            #add other dice here
+            #Todo: add other dice here
         ]
     }
 
@@ -106,6 +106,7 @@
         actions:[
             {
                 actionText: "Authorative Leader"
+                reqStatus: -st-emsc-cc-introvert
                 setStatus: +st-naturalLeader
                 select: evt-emsc-cc-charcreator
             }
@@ -132,6 +133,12 @@
             {
                 actionText: "Preacher"
                 setStatus: +st-preacher
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Introverted"
+                reqStatus: -st-emsc-cc-introvert
+                setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
         ]
