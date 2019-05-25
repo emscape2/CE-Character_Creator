@@ -58,6 +58,14 @@
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
+            {
+                #only if oriental exploration mod is turned on
+                reqPartyFlags: +emsc-oo-active
+                actionText: "Martial Artist Die"
+                setStatus: +st-emsc-dice-B
+                select: evt-emsc-cc-charcreator
+
+            }
             #add other dice here
         ]
     }
