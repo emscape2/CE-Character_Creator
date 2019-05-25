@@ -42,4 +42,7 @@ After starting the game instead of going to the harbor the character creator wil
   - one harbor recruit
 Afterwards the game will continue normally.
 
+Suggestions:
+- option to instead of extra perk recruit lizardman
+
 
