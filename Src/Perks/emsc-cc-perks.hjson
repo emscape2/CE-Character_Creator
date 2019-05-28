@@ -22,7 +22,7 @@
     description: "Become Feihong with this die."
     debugCategory: Explorer Perk
     sprite: res_status_preacher.png
-    bonus: {dice: dc-feihong}
+    bonus: {dice: dc-feihong, maxHealth: -2}
   }
   
 {

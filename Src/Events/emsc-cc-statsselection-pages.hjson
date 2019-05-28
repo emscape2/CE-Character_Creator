@@ -64,9 +64,22 @@
                 actionText: "Martial Artist Die"
                 setStatus: +st-emsc-dice-B
                 select: evt-emsc-cc-charcreator
-
             }
-            #Todo: add other dice here
+            {
+                actionText: "Animal Attack Die"
+                setStatus: +st-emsc-cc-animalatk-die
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Animal Defence Die"
+                setStatus: +st-emsc-cc-animaldef-die
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Feihong Die"
+                setStatus: +st-emsc-cc-feihong-die
+                select: evt-emsc-cc-charcreator
+            }
         ]
     }
 
@@ -106,7 +119,7 @@
         actions:[
             {
                 actionText: "Authorative Leader"
-                reqStatus: -st-emsc-cc-introvert
+                reqStatus: -st-emsc-cc-introvert -st-naturalLeader
                 setStatus: +st-naturalLeader
                 select: evt-emsc-cc-charcreator
             }
@@ -137,7 +150,7 @@
             }
             {
                 actionText: "Introverted"
-                reqStatus: -st-emsc-cc-introvert
+                reqStatus: -st-emsc-cc-introvert -st-naturalLeader
                 setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
