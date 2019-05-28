@@ -101,6 +101,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalsoldierbrit
+        reqPartyFlags: -emsc-cc-brit
+        setPartyFlags: +emsc-cc-brit
         actions: [
             {
             actionText: "Recruit Brittish Soldier"
@@ -111,6 +113,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalsoldierscot
+        reqPartyFlags: -emsc-cc-scot
+        setPartyFlags: +emsc-cc-scot
         actions: [
             {
             actionText: "Recruit Scottish Soldier"
@@ -121,6 +125,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalmountaintrooper
+        reqPartyFlags: -emsc-cc-mount
+        setPartyFlags: +emsc-cc-mount
         actions: [
             {
             actionText: "Recruit Mountain Trooper"
@@ -142,6 +148,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalcultist
+        reqPartyFlags: -emsc-cc-cult
+        setPartyFlags: +emsc-cc-cult
         actions: [
             {
             actionText: "Recruit Cultist"
@@ -152,6 +160,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalcook
+        reqPartyFlags: -emsc-cc-cook
+        setPartyFlags: +emsc-cc-cook
         actions: [
             {
             actionText: "Recruit Cook"
@@ -162,6 +172,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalsailor
+        reqPartyFlags: -emsc-cc-sail
+        setPartyFlags: +emsc-cc-sail
         actions: [
             {
             actionText: "Recruit Sailor"
@@ -183,6 +195,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalmissionary
+        reqPartyFlags: -emsc-cc-miss
+        setPartyFlags: +emsc-cc-miss
         actions: [
             {
             actionText: "Recruit Missionary"
@@ -193,6 +207,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocaltrader
+        reqPartyFlags: -emsc-cc-trad
+        setPartyFlags: +emsc-cc-trad
         actions: [
             {
             actionText: "Recruit Trader"
@@ -203,6 +219,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocaltranslator
+        reqPartyFlags: -emsc-cc-trans
+        setPartyFlags: +emsc-cc-trans
         actions: [
             {
             actionText: "Recruit Translator"
@@ -223,6 +241,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocalartist
+        reqPartyFlags: -emsc-cc-art
+        setPartyFlags: +emsc-cc-art
         actions: [
             {
             actionText: "Recruit Artist"
@@ -233,6 +253,8 @@
     }
     {
         id: evt-emsc-cc-recruitlocaljournalist
+        reqPartyFlags: -emsc-cc-jour
+        setPartyFlags: +emsc-cc-jour
         actions: [
             {
             actionText: "Recruit Journalist"
