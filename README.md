@@ -44,5 +44,6 @@ Afterwards the game will continue normally.
 
 Suggestions:
 - option to instead of extra perk recruit lizardman
-- Introvert perk. Gives 30 more sanity but lowers party limit by 2, gives only animals for starting recruits.
-
+- Introvert perk. Gives 35 more sanity but lowers party limit by 2, gives only animals for starting recruits.
+- Archeologist. Gives more items when scouring trough elephant graveyard.
+- Slaver. Buy and sell slaves for a better price
