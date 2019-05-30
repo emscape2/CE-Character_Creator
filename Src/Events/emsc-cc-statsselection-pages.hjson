@@ -125,26 +125,31 @@
             }
             {
                 actionText: "Healer"
+                reqStatus: -st-healer
                 setStatus: +st-healer
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Inhuman Strength"
+                reqStatus: -st-blessingInhumanStrength
                 setStatus: +st-blessingInhumanStrength
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Holy Marking"
+                reqStatus: -st-blessingHoly
                 setStatus: +st-blessingHoly
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Animal Whisperer"
+                reqStatus: -st-animalWhisperer
                 setStatus: +st-animalWhisperer
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Preacher"
+                reqStatus: -st-preacher
                 setStatus: +st-preacher
                 select: evt-emsc-cc-charcreator
             }
@@ -184,6 +189,13 @@
                 setStatus: +st-emsc-cc-viewingLoss-permanent
                 setPartyFlags: +charCreator-ailmentchoice-ailment
                 select: evt-emsc-cc-charcreator
+            }
+            {
+
+                actionText: "Hallucinations"
+                setStatus: +st-emsc-cc-hallucinations
+                setPartyFlags: +charCreator-ailmentchoice-ailment
+                select:  evt-emsc-cc-charcreator
             }
             #insert hallucinations here
         ]
