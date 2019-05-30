@@ -33,4 +33,20 @@
   }
 
 
+  {
+    id: st-emsc-cc-hallucinations
+    title: txt-st-hallucinations-title
+    description: txt-st-hallucinations
+    flags: +ailment
+    debugCategory: Ailment
+    sprite: res_status_hallucinations.png
+    important: true
+    tripEvents: {
+      reqLocation: {flags: +hallucinations, range: ..10, count: 0}
+      posTile: {reachable: true, traversable: true, range: ..10}
+      addLocation: {ref: loc-hallucination, animate: false, range: 0}
+    }
+  }
+
+
 ]

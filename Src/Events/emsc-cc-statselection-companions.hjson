@@ -16,6 +16,11 @@
                 select: evt-emsc-cc-charcreator
             }
             {
+                actionText: "Recruit Husky."
+                addCharacter: anm-dog-husky
+                select: evt-emsc-cc-charcreator
+            }
+            {
                 actionText: "Recruit Scouting Dog."
                 addCharacter: anm-dog-luis
                 select: evt-emsc-cc-charcreator
