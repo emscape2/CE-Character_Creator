@@ -43,6 +43,8 @@ After starting the game instead of going to the harbor the character creator wil
 Afterwards the game will continue normally.
 
 Suggestions:
+- musician perk, sanity gain from using instruments
+- Ill Omen, negative standing start
 - option to instead of extra perk recruit lizardman
 - Introvert perk. Gives 35 more sanity but lowers party limit by 2, gives only animals for starting recruits.
 - Archeologist. Gives more items when scouring trough elephant graveyard.
