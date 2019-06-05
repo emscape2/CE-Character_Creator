@@ -12,6 +12,10 @@
   },
   spriteSheets:[
   #sprite sheets entered here
+    {
+      file: CharacterCreator/images/charportrait-slide-1.json
+      hasTinted: false
+    },
   ],
   imageData:[
   #imageData

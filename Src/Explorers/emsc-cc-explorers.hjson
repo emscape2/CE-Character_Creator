@@ -21,7 +21,161 @@
         gender: male
         sprite: ee_sprite_jargo.png
         miniSprite: ee_sprite_jargo_mini.png
-        portrait: ee_face_jargo.png
+        portrait: emsc-cc-portrait01.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+
+  {
+    id: sp-emsc-cc-oldranger
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait02.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+
+  
+  {
+    id: sp-emsc-cc-celtic
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: female
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait03.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+
+  
+  {
+    id: sp-emsc-cc-rambo
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait04.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+
+
+  {
+    id: sp-emsc-cc-gent
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait05.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+
+  
+  {
+    id: sp-emsc-cc-rougue
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait06.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+  
+  {
+    id: sp-emsc-cc-femalenative
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    flags: +native
+    variations: [
+      {
+        gender: female
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait07.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+  }
+
+  
+  {
+    id: sp-emsc-cc-nativepriestress
+    extends: sp-emsc-cc-base
+    name: Test customChar
+    title: txt-sp-ee-diplomat-title
+    description: txt-sp-ee-diplomat
+    alwaysUnlocked: true
+    flags: +native
+    variations: [
+      {
+        gender: female
+        sprite: ee_sprite_jargo.png
+        miniSprite: ee_sprite_jargo_mini.png
+        portrait: emsc-cc-portrait08.png
       }
     ]
     levels: [

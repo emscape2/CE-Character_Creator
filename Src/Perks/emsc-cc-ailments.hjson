@@ -21,7 +21,6 @@
     bonus: {combatRoll: -1}
   }
 
-
   {
     #copy from viewing loss, but permanent
     id: st-emsc-cc-viewingLoss-permanent
@@ -31,7 +30,6 @@
     bonus: {viewDist: -0.4}
     debugCategory: ailment
   }
-
 
   {
     id: st-emsc-cc-hallucinations
@@ -47,6 +45,8 @@
       addLocation: {ref: loc-hallucination, animate: false, range: 0}
     }
   }
+
+  
 
 
 ]
