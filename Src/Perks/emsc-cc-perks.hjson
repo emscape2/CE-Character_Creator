@@ -50,6 +50,34 @@
   bonus: {maxUnitCount: -2, maxSanity: 35}
 }
 
+{
+   id: st-emsc-cc-eldritch-echo
+   title: "Eldritch Echo"
+   description: "Gains one random tome every 30 days."
+   sprite: res_occult_vision.png
+   dayEvents: {
+      reqAge: 30..
+      reqItems: {it-tome: ..9}
+      items: {il-tomePages: 1}
+      resetStatusAge: true
+  }
+
+{
+   id: st-emsc-cc-musiciamn
+   title: "Musician"
+   description: "Bonus sanity from using musical instruments"
+   bonus: {fluteBonus: 15, bongoBonus: 10}
+   sprite: res_status_combat.png
+   debugCategory: Unit Perk
+ }
+
+{
+   id: st-emsc-cc-archeologist
+   title: "Archeologist"
+   description: "Increases tusk finds from elephant and mammoth graveyards"
+   
+ }
+}
 
 {
     #this should be attached to the explorers which use character creation
