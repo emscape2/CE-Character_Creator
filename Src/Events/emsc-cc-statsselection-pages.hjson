@@ -159,6 +159,18 @@
                 setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
+            {
+                actionText: "Eldritch Echo"
+                reqStatus: -st-emsc-cc-eldritch-echo
+                setStatus: +st-emsc-cc-eldritch-echo
+                select: evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Musician"
+                reqStatus: -st-emsc-cc-musician
+                setStatus: +st-emsc-cc-musician
+                select: evt-emsc-cc-charcreator
+            }
         ]
     }
 {
@@ -195,6 +207,12 @@
                 actionText: "Hallucinations"
                 setStatus: +st-emsc-cc-hallucinations
                 setPartyFlags: +charCreator-ailmentchoice-ailment
+                select:  evt-emsc-cc-charcreator
+            }
+            {
+                actionText: "Ill Omen"
+                setStatus: +st-emsc-cc-illOmen
+                setPartyFlags: +charCreator-ailmentchoice-illOmen
                 select:  evt-emsc-cc-charcreator
             }
             #insert hallucinations here
