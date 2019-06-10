@@ -56,6 +56,9 @@
       import: CharacterCreator/Src/Events/emsc-cc-statselection.hjson
   },
   {
+      import: CharacterCreator/Src/Events/emsc-cc-statselection-perkevents.hjson
+  },
+  {
       import: CharacterCreator/Src/Events/emsc-cc-statsselection-pages.hjson
   },
   {

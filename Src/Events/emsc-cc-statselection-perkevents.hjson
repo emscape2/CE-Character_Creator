@@ -1,0 +1,28 @@
+[
+    {
+        targetId: +it-bongos::useEvents
+        reqStatus: +st-emsc-cc-musiciamn
+        sanity: 20
+    },
+
+    
+    {
+        targetId: +it-bongosTuned::useEvents
+        reqStatus: +st-emsc-cc-musiciamn
+        sanity: 25
+    },
+
+    
+    {
+        targetId: +it-hornFlute::useEvents
+        reqStatus: +st-emsc-cc-musiciamn
+        sanity: 15
+
+      posPunch: {radius: 1, maxRange: 6}
+      deactivateZones: {radius: 1, turns: 10}
+      playSound: sfx_flute
+      removeItem: true
+    },
+
+    
+]
