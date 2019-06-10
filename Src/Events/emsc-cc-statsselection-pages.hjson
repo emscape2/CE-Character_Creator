@@ -137,7 +137,7 @@
             }
             {
                 actionText: "Holy Marking"
-                reqStatus: -st-blessingHoly
+                reqStatus: -st-blessingHoly -st-emsc-cc-illOmen
                 setStatus: +st-blessingHoly
                 select: evt-emsc-cc-charcreator
             }
@@ -211,6 +211,7 @@
             }
             {
                 actionText: "Ill Omen"
+                reqStatus: -st-blessingHoly
                 setStatus: +st-emsc-cc-illOmen
                 setPartyFlags: +charCreator-ailmentchoice-ailment
                 select:  evt-emsc-cc-charcreator

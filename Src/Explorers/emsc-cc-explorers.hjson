@@ -12,7 +12,7 @@
   {
     id: sp-emsc-cc-diplomat
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "William Hillington"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
@@ -33,10 +33,11 @@
   {
     id: sp-emsc-cc-oldranger
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "John Denver"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
+    bonus: {health: 5, capacity: 1}
     variations: [
       {
         gender: male
@@ -48,17 +49,19 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-chocolate: 8, it-torch: 3, it-pistol: 1, it-machete: 10}
   }
 
   
   {
     id: sp-emsc-cc-celtic
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "Celine Turner"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
+    bonus: {health: 2, capacity: 2}
+    
     variations: [
       {
         gender: female
@@ -70,17 +73,18 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-whisky: 8, it-fireworks: 3, it-rope: 2, it-firstAid: 3}
   }
 
   
   {
     id: sp-emsc-cc-rambo
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "Butch Dunkers"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
+    bonus: {health: 1, capacity: 2}
     variations: [
       {
         gender: male
@@ -92,14 +96,14 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-chocolate: 8, it-machete: 3, it-bongos: 1, it-rope: 10}
   }
 
 
   {
     id: sp-emsc-cc-gent
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "Isley dePuce"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
@@ -114,14 +118,14 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-torch: 5, it-spear: 3, it-ammo: 1, it-tinCans: 10}
   }
 
   
   {
     id: sp-emsc-cc-rougue
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "Jack de Monet"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
@@ -136,13 +140,13 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-chocolate: 8, it-marbles: 3, it-telescope: 1, it-climbingGear: 5}
   }
   
   {
     id: sp-emsc-cc-femalenative
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "Sharisa Morty"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
@@ -157,17 +161,18 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-fireworks: 8, it-dynamite: 3, it-binoculars: 1, it-cocaLeaves: 10}
   }
 
   
   {
     id: sp-emsc-cc-nativepriestress
     extends: sp-emsc-cc-base
-    name: Test customChar
+    name: "Miraya Dorethy"
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
+    bonus: {capacity: 3}
     variations: [
       {
         gender: female
@@ -179,6 +184,6 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-shovel: 3, it-pistol: 1, it-machete: 10}
+    items: {it-tomePage-waterfall: 3, it-mushroom-view: 3, it-crystalBall: 1, it-nativeTrinket: 3}
   }
 ]

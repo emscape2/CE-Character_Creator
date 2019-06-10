@@ -5,6 +5,7 @@
     description: "Become a jack of all traits with this die."
     debugCategory: Explorer Perk
     sprite: res_status_leader.png
+    isPerk: true
     bonus: {dice: dc-emsc-cc-roulette}
   }
 
@@ -14,6 +15,7 @@
     description: "Become a shaman with this die."
     debugCategory: Explorer Perk
     sprite: res_status_polymath.png
+    isPerk: true
     bonus: {dice: dc-shaman-2}
   }
 {
@@ -54,6 +56,7 @@
    id: st-emsc-cc-eldritch-echo
    title: "Eldritch Echo"
    description: "Gains one random tome every 30 days."
+   isPerk: true
    sprite: res_occult_vision.png
    dayEvents: {
       reqAge: 30..
@@ -64,10 +67,11 @@
 }
 
 {
-   id: st-emsc-cc-musiciamn
+   id: st-emsc-cc-musician
    title: "Musician"
    description: "Bonus sanity from using musical instruments"
    bonus: {fluteBonus: 15, bongoBonus: 10}
+   isPerk: true
    sprite: res_status_preacher.png
    debugCategory: Unit Perk
  }
@@ -76,8 +80,6 @@
    id: st-emsc-cc-archeologist
    title: "Archeologist"
    description: "Increases tusk finds from elephant and mammoth graveyards"
-   
- 
 }
 
 {

@@ -1,21 +1,21 @@
 [
     {
         targetId: +it-bongos::useEvents
-        reqStatus: +st-emsc-cc-musiciamn
+        reqStatus: +st-emsc-cc-musician
         sanity: 20
     },
 
     
     {
         targetId: +it-bongosTuned::useEvents
-        reqStatus: +st-emsc-cc-musiciamn
+        reqStatus: +st-emsc-cc-musician
         sanity: 25
     },
 
     
     {
         targetId: +it-hornFlute::useEvents
-        reqStatus: +st-emsc-cc-musiciamn
+        reqStatus: +st-emsc-cc-musician
         sanity: 15
 
       posPunch: {radius: 1, maxRange: 6}

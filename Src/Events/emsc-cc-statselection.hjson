@@ -16,7 +16,8 @@
                 prio:1
                 optional: true
                 reqPartyFlags: -charCreator-Finished
-                reqStatus: +st-emsc-cc-customChar #ensures only custom characters open the character customization
+                reqStatus: +st-emsc-cc-customChar 
+                #ensures only custom characters open the character customization
                 showImage: {src: evt_spec_ship_1.png}
                 select: evt-emsc-cc-charcreator
             },
