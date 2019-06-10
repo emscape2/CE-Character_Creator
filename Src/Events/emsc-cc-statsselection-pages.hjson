@@ -212,7 +212,7 @@
             {
                 actionText: "Ill Omen"
                 setStatus: +st-emsc-cc-illOmen
-                setPartyFlags: +charCreator-ailmentchoice-illOmen
+                setPartyFlags: +charCreator-ailmentchoice-ailment
                 select:  evt-emsc-cc-charcreator
             }
             #insert hallucinations here

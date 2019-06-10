@@ -44,19 +44,19 @@
       posTile: {reachable: true, traversable: true, range: ..10}
       addLocation: {ref: loc-hallucination, animate: false, range: 0}
     }
-    
-` {
-    id:st-emsc-cc-illOmen
+  }
+
+ {
+    id: st-emsc-cc-illOmen
     title: "Ill Omen"
     important: true
     flags: +ailment
     debugCategory: Ailment
     description: "This person bears a cursed mark which brings fear among the superstitious"
     sprite: res_status_loneSurvivor.png
-    debugCategory: Ailment
     bonus: {startStanding: -2}
-    }
   }
+  
 
   
 

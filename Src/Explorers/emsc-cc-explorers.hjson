@@ -146,7 +146,6 @@
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
-    flags: +native
     variations: [
       {
         gender: female
@@ -169,7 +168,6 @@
     title: txt-sp-ee-diplomat-title
     description: txt-sp-ee-diplomat
     alwaysUnlocked: true
-    flags: +native
     variations: [
       {
         gender: female

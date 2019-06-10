@@ -60,14 +60,15 @@
       reqItems: {it-tome: ..9}
       items: {il-tomePages: 1}
       resetStatusAge: true
-  }
+   }
+}
 
 {
    id: st-emsc-cc-musiciamn
    title: "Musician"
    description: "Bonus sanity from using musical instruments"
    bonus: {fluteBonus: 15, bongoBonus: 10}
-   sprite: res_status_combat.png
+   sprite: res_status_preacher.png
    debugCategory: Unit Perk
  }
 
@@ -76,7 +77,7 @@
    title: "Archeologist"
    description: "Increases tusk finds from elephant and mammoth graveyards"
    
- }
+ 
 }
 
 {
