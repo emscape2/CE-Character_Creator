@@ -51,3 +51,4 @@ Suggestions:
 - Slaver. Buy and sell slaves for a better price
 - Damned. Volcanos, floods, and other disasters will be created every once in a while.
 - Eldrich Echo, creates random tome page every so many turns.
+- Mark of the gods, can loot statues without penalty to standing
