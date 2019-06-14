@@ -1,28 +1,63 @@
 [
     {
-        targetId: +it-bongos::useEvents
-        reqStatus: +st-emsc-cc-musician
-        sanity: 20
+        targetId: /it-bongos::useEvents
+        data: [
+            {
+                reqStatus: +st-emsc-cc-musician
+                sanity: 20
+                playSound: sfx_totem
+                resetPartyStatus: +aggro
+            },
+            {
+                reqStatus: -st-emsc-cc-musician
+                sanity: 10
+                playSound: sfx_totem
+                resetPartyStatus: +aggro
+            }
+        ]
     },
 
     
     {
-        targetId: +it-bongosTuned::useEvents
-        reqStatus: +st-emsc-cc-musician
-        sanity: 25
+        targetId: /it-bongosTuned::useEvents
+        data: [
+             {
+                reqStatus: +st-emsc-cc-musician
+                sanity: 25
+                playSound: sfx_totem
+                resetPartyStatus: +aggro
+            },
+            {
+                reqStatus: -st-emsc-cc-musician
+                sanity: 15
+                playSound: sfx_totem
+                resetPartyStatus: +aggro
+            }
+        ]
     },
 
     
     {
-        targetId: +it-hornFlute::useEvents
-        reqStatus: +st-emsc-cc-musician
-        sanity: 15
-
-      posPunch: {radius: 1, maxRange: 6}
-      deactivateZones: {radius: 1, turns: 10}
-      playSound: sfx_flute
-      removeItem: true
-    },
+        targetId: /it-hornFlute::useEvents
+        data: [
+            {
+                reqStatus: +st-emsc-cc-musician
+                sanity: 15
+                posPunch: {radius: 1, maxRange: 6}
+                deactivateZones: {radius: 1, turns: 10}
+                playSound: sfx_flute
+                removeItem: true
+            },
+            {
+                
+                reqStatus: -st-emsc-cc-musician
+                posPunch: {radius: 1, maxRange: 6}
+                deactivateZones: {radius: 1, turns: 10}
+                playSound: sfx_flute
+                removeItem: true
+            }
+        ]
+    }
 
     
 ]
