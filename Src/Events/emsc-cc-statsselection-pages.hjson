@@ -77,6 +77,7 @@
             }
             {
                 actionText: "Feihong Die"
+                reqPartyFlags: -emsc-oo-active
                 setStatus: +st-emsc-cc-feihong-die
                 select: evt-emsc-cc-charcreator
             }
@@ -123,12 +124,13 @@
                 setStatus: +st-naturalLeader
                 select: evt-emsc-cc-charcreator
             }
-            {
-                actionText: "Healer"
-                reqStatus: -st-healer
-                setStatus: +st-healer
-                select: evt-emsc-cc-charcreator
-            }
+            #ES: Healer does not offer a lot of extra scenarios in terms of fun, so I'd propose to remove it from the list
+            #{
+            #    actionText: "Healer"
+            #    reqStatus: -st-healer
+            #    setStatus: +st-healer
+            #    select: evt-emsc-cc-charcreator
+            #}
             {
                 actionText: "Inhuman Strength"
                 reqStatus: -st-blessingInhumanStrength

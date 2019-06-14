@@ -53,7 +53,7 @@
     flags: +ailment
     debugCategory: Ailment
     description: "This person bears a cursed mark which brings fear among the superstitious"
-    sprite: res_status_loneSurvivor.png
+    sprite: emsc_cc_st_illOmen.png
     bonus: {startStanding: -2}
   }
   

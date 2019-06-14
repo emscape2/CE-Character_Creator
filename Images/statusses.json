@@ -1,0 +1,233 @@
+{
+    "frames": [
+	{
+		"filename": "emsc_cc_st_cook.png",
+		"frame": {"x":0,"y":0,"w":14,"h":14},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":14},
+		"sourceSize": {"w":14,"h":14},
+		"pivot": {"x":0.5,"y":0.5}
+	}, 
+	{
+		"filename": "emsc_cc_st_jack.png",
+		"frame": {
+			"x": 14,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	}, {
+		"filename": "emsc_cc_st_power.png",
+		"frame": {
+			"x": 28,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},  {
+		"filename": "emsc_cc_st_introvert.png",
+		"frame": {
+			"x": 42,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	}, {
+		"filename": "emsc_cc_st_musician.png",
+		"frame": {
+			"x": 56,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+	{
+		"filename": "emsc_cc_st_archeologist.png",
+		"frame": {
+			"x": 70,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	}, {
+		"filename": "emsc_cc_st_claw.png",
+		"frame": {
+			"x": 0,
+			"y": 14,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+	{
+		"filename": "emsc_cc_st_eldrich.png",
+		"frame": {
+			"x": 14,
+			"y": 14,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+	{
+		"filename": "emsc_cc_st_animalDef.png",
+		"frame": {
+			"x": 28,
+			"y": 14,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	}, {
+		"filename": "emsc_cc_st_illOmen.png",
+		"frame": {
+			"x": 42,
+			"y": 14,
+			"w": 14,
+			"h": 14
+		},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {
+			"x": 0,
+			"y": 0,
+			"w": 14,
+			"h": 14
+		},
+		"sourceSize": {
+			"w": 14,
+			"h": 14
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	}
+]
+}
