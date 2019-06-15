@@ -96,6 +96,7 @@
 <<<<<<< Updated upstream
         text: "Character creation succesful. You may embark on your journey now, and set sail to lands of great promise."
 =======
+        text: "As I conclude my introspection, I returned my senses to the harbor, and looked around, for I am certain that I would make my mark in history."
 >>>>>>> Stashed changes
         setPartyFlags: +charCreator-Finished
         actions: [

@@ -32,6 +32,7 @@
 <<<<<<< Updated upstream
         text: "You may now pick a native to recruit to your party."
 =======
+        text: "I knew of some natives who would be willing to help guid us trough this venture."
 >>>>>>> Stashed changes
         setPartyFlags: +charCreator-nativechoice
         actions:
@@ -39,16 +40,19 @@
             {
                 actionText: "Recruit Warrior."
                 addCharacter: pl-native-starting-warrior
+                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Recruit Animal Handler."
                 addCharacter: pl-native-starting-animalHandler
+                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Recruit Scout."
                 addCharacter: pl-native-starting-scout
+                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
@@ -57,19 +61,24 @@
                 addCharacter: pl-native-starting-shaman
                 select: evt-emsc-cc-charcreator
             }
+            {
+                actionText: "Recruit None."
+                select: evt-emsc-cc-charcreator
+            }
         ]
     }
     {
         id: evt-emsc-cc-recruitlocal
+<<<<<<< Updated upstream
         text: "You may now pick an local to recruit to your party."
 =======
+        text: "I didn't come alone though. as I ought to bring others with me in this expedition, I first made contact with some people in London who would join me."
 >>>>>>> Stashed changes
         setPartyFlags: +charCreator-localchoice
         select:
         [
             {
                 prio: 1
-                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-recruitlocal-select
             }
             {
