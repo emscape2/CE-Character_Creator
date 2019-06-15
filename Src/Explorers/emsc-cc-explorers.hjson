@@ -20,7 +20,7 @@
     variations: [
       {
         gender: male
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite01.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait01.png
       }
@@ -45,7 +45,7 @@
     variations: [
       {
         gender: male
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite02.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait02.png
       }
@@ -69,7 +69,7 @@
     variations: [
       {
         gender: female
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite03.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait03.png
       }
@@ -92,7 +92,7 @@
     variations: [
       {
         gender: male
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite04.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait04.png
       }
@@ -115,7 +115,7 @@
     variations: [
       {
         gender: male
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite05.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait05.png
       }
@@ -137,7 +137,7 @@
     variations: [
       {
         gender: male
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite06.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait06.png
       }
@@ -159,7 +159,7 @@
     variations: [
       {
         gender: female
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite07.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait07.png
       }
@@ -183,7 +183,7 @@
     variations: [
       {
         gender: female
-        sprite: ee_sprite_jargo.png
+        sprite: emsc-cc-sprite08.png
         miniSprite: ee_sprite_jargo_mini.png
         portrait: emsc-cc-portrait08.png
       }
