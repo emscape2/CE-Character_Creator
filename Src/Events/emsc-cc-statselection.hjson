@@ -93,7 +93,10 @@
     {
         #after this event proceed as normally with the harbor events
         id: evt-emsc-cc-continuetoharbor
+<<<<<<< Updated upstream
         text: "Character creation succesful. You may embark on your journey now, and set sail to lands of great promise."
+=======
+>>>>>>> Stashed changes
         setPartyFlags: +charCreator-Finished
         actions: [
             {

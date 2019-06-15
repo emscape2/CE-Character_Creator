@@ -1,7 +1,7 @@
 [
   {
     id: st-emsc-cc-roulette-die
-    title: "Roulette Die"
+    title: "Jack of all Traits"
     description: "Become a jack of all traits with this die."
     debugCategory: Explorer Perk
     sprite: emsc_cc_st_jack.png
@@ -11,7 +11,7 @@
 
   {
     id: st-emsc-cc-shaman-die
-    title: "Shaman Die"
+    title: "Shaman"
     description: "Become a shaman with this die."
     debugCategory: Explorer Perk
     sprite: res_status_pureMind.png
@@ -73,7 +73,6 @@
    id: st-emsc-cc-musician
    title: "Musician"
    description: "Bonus sanity from using musical instruments"
-   bonus: {fluteBonus: 15, bongoBonus: 10}
    isPerk: true
    sprite: emsc_cc_st_musician.png
    debugCategory: Unit Perk

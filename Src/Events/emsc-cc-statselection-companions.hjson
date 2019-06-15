@@ -29,7 +29,10 @@
     }
     {
         id: evt-emsc-cc-recruitnative
+<<<<<<< Updated upstream
         text: "You may now pick a native to recruit to your party."
+=======
+>>>>>>> Stashed changes
         setPartyFlags: +charCreator-nativechoice
         actions:
         [
@@ -59,6 +62,8 @@
     {
         id: evt-emsc-cc-recruitlocal
         text: "You may now pick an local to recruit to your party."
+=======
+>>>>>>> Stashed changes
         setPartyFlags: +charCreator-localchoice
         select:
         [
