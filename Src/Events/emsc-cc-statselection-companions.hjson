@@ -36,16 +36,19 @@
             {
                 actionText: "Recruit Warrior."
                 addCharacter: pl-native-starting-warrior
+                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Recruit Animal Handler."
                 addCharacter: pl-native-starting-animalHandler
+                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Recruit Scout."
                 addCharacter: pl-native-starting-scout
+                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
@@ -54,17 +57,20 @@
                 addCharacter: pl-native-starting-shaman
                 select: evt-emsc-cc-charcreator
             }
+            {
+                actionText: "Recruit None."
+                select: evt-emsc-cc-charcreator
+            }
         ]
     }
     {
         id: evt-emsc-cc-recruitlocal
-        text: "I didn't come alone though, as I brought others with me in this expedition. I first made contact with some people in London who would join me."
+        text: "I didn't come alone though. as I ought to bring others with me to this expedition, I first made contact with some people in London who would join me."
         setPartyFlags: +charCreator-localchoice
         select:
         [
             {
                 prio: 1
-                reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-recruitlocal-select
             }
             {

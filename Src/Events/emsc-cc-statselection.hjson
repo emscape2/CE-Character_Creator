@@ -30,8 +30,10 @@
     {
         #This starts the varying screens for the character creation. At the moment it only runs a misc event, and afterwards continues the harbor events.
 	    id: evt-emsc-cc-charcreator
-	    text: "succesfully injected test event." #this should at one point be replaced with a summary of your decisions.
         partyEvents:[
+            {
+                select: evt-emsc-cc-charactercreator-summary
+            },
             #inject more pages here
             {
                 optional: true
@@ -93,7 +95,7 @@
     {
         #after this event proceed as normally with the harbor events
         id: evt-emsc-cc-continuetoharbor
-        text: "As I conclude my introspection, I returned my senses to the harbor, and looked around. I am certain, that I would make my mark in history."
+        text: "As I conclude my introspection, I returned my senses to the harbor, and looked around, for I am certain that I would make my mark in history."
         setPartyFlags: +charCreator-Finished
         actions: [
             {

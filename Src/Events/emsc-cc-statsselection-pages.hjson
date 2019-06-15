@@ -54,29 +54,29 @@
         text: "What makes me Special?"
         actions:[
             {
-                actionText: "I have mystical powers"
+                actionText: "I am a Shaman."
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
             {
                 #only if oriental exploration mod is turned on
                 reqPartyFlags: +emsc-oo-active
-                actionText: "I studied martial arts"
+                actionText: "I am a master of martial arts."
                 setStatus: +st-emsc-dice-B
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "I shapeshift into animals offensively"
+                actionText: "I am an agressive shape shifter."
                 setStatus: +st-emsc-cc-animalatk-die
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "I shapeshift into animals defensively"
+                actionText: "I am a defensive shape shifter."
                 setStatus: +st-emsc-cc-animaldef-die
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "I studied martial arts"
+                actionText: "I became a personal trainee of Feihong."
                 reqPartyFlags: -emsc-oo-active
                 setStatus: +st-emsc-cc-feihong-die
                 select: evt-emsc-cc-charcreator
@@ -87,25 +87,25 @@
     {
         #normal die selection page, applies possibly twice.
         id: evt-emsc-cc-charcreator-normaldiepage
-        text: "I then thinked about my skills, which I have learned over the years. What am I skilled at?"
+        text: "I then thinked about my skills, which I have learned over the years. What type of person am I?"
         actions:[
             {
-                actionText: "Combat"
+                actionText: "Ruffian"
                 setStatus: +st-die-attack
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Defense"
+                actionText: "Protector"
                 setStatus: +st-die-defend
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Thinker"
+                actionText: "Adept"
                 setStatus: +st-die-support
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Flexibility (Contains all 6 sides)"
+                actionText: "Jack of all Traits"
                 setStatus: +st-emsc-cc-roulette-die
                 select: evt-emsc-cc-charcreator
             }
@@ -151,13 +151,13 @@
             }
             {
                 actionText: "Preacher"
-                reqStatus: -st-preacher
-                setStatus: +st-preacher
+                reqStatus: -st-preacher -st-emsc-cc-introvert
+                setStatus: +st-preacher 
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Introverted"
-                reqStatus: -st-emsc-cc-introvert -st-naturalLeader
+                reqStatus: -st-emsc-cc-introvert -st-naturalLeader -st-preacher
                 setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
