@@ -5,7 +5,7 @@
     {
         ##sample page
         id: evt-emsc-cc-charcreator-dicechoice
-        text: "Were you rather normal, or someone special?."
+        text: "Were you rather normal, or someone special?"
         setPartyFlags: +charCreator-dicechoice
         actions:[
             {
@@ -54,49 +54,29 @@
         text: "Select a special die."
         actions:[
             {
-<<<<<<< Updated upstream
-                actionText: "Shaman Die"
-=======
                 actionText: "I am a Shaman."
->>>>>>> Stashed changes
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
             {
                 #only if oriental exploration mod is turned on
                 reqPartyFlags: +emsc-oo-active
-<<<<<<< Updated upstream
-                actionText: "Martial Artist Die"
-=======
-                actionText: "I am a master of martial arts"
->>>>>>> Stashed changes
+                actionText: "I am a master of martial arts."
                 setStatus: +st-emsc-dice-B
                 select: evt-emsc-cc-charcreator
             }
             {
-<<<<<<< Updated upstream
-                actionText: "Animal Attack Die"
-=======
-                actionText: "I am an agressive shape shifter"
->>>>>>> Stashed changes
+                actionText: "I am an agressive shape shifter."
                 setStatus: +st-emsc-cc-animalatk-die
                 select: evt-emsc-cc-charcreator
             }
             {
-<<<<<<< Updated upstream
-                actionText: "Animal Defence Die"
-=======
-                actionText: "I am a defensive shape shifter"
->>>>>>> Stashed changes
+                actionText: "I am a defensive shape shifter."
                 setStatus: +st-emsc-cc-animaldef-die
                 select: evt-emsc-cc-charcreator
             }
             {
-<<<<<<< Updated upstream
-                actionText: "Feihong Die"
-=======
-                actionText: "I started my own martial arts school"
->>>>>>> Stashed changes
+                actionText: "I became a personal trainee of Feihong."
                 reqPartyFlags: -emsc-oo-active
                 setStatus: +st-emsc-cc-feihong-die
                 select: evt-emsc-cc-charcreator
@@ -110,38 +90,22 @@
         text: "Select a Normal die."
         actions:[
             {
-<<<<<<< Updated upstream
-                actionText: "Attack Die"
-=======
                 actionText: "Ruffian"
->>>>>>> Stashed changes
                 setStatus: +st-die-attack
                 select: evt-emsc-cc-charcreator
             }
             {
-<<<<<<< Updated upstream
-                actionText: "Defence Die"
-=======
                 actionText: "Protector"
->>>>>>> Stashed changes
                 setStatus: +st-die-defend
                 select: evt-emsc-cc-charcreator
             }
             {
-<<<<<<< Updated upstream
-                actionText: "Mind Die"
-=======
                 actionText: "Adept"
->>>>>>> Stashed changes
                 setStatus: +st-die-support
                 select: evt-emsc-cc-charcreator
             }
             {
-<<<<<<< Updated upstream
-                actionText: "Roulette Die (Contains all 6 sides)"
-=======
                 actionText: "Jack of all Traits"
->>>>>>> Stashed changes
                 setStatus: +st-emsc-cc-roulette-die
                 select: evt-emsc-cc-charcreator
             }
@@ -187,13 +151,13 @@
             }
             {
                 actionText: "Preacher"
-                reqStatus: -st-preacher
-                setStatus: +st-preacher
+                reqStatus: -st-preacher -st-emsc-cc-introvert
+                setStatus: +st-preacher 
                 select: evt-emsc-cc-charcreator
             }
             {
                 actionText: "Introverted"
-                reqStatus: -st-emsc-cc-introvert -st-naturalLeader
+                reqStatus: -st-emsc-cc-introvert -st-naturalLeader -st-preacher
                 setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }

@@ -1,0 +1,119 @@
+[
+    {
+        id: evt-emsc-cc-charactercreator-summary
+        partyEvents:[ 
+            {
+                optional: true
+                reqStatus: +st-naturalLeader 
+                text: "From the moment I was little, I always had a tendency to bend people to my will."
+            },
+            {
+                optional: true
+                reqStatus: -st-naturalLeader +st-preacher
+                text: "From the moment I was little, I always had a tendency to bend people to my will."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-animalatk-die
+                text: "I was abandoned by my parents and raised by wolves who taught me their way of life. "
+            },
+            {
+                optional: true
+                reqPartyFlags: +charCreator-normal-dicechoice
+                text: "I have worked hard to train my physical and mental capacity."
+            },
+            {
+                optional: true
+                reqPartyFlags: +charCreator-special-dicechoice
+                text: "I embraced the subnatural to become a stronger person."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-shaman-die
+                text: "When growing up I trained to become a shaman."
+            },
+            {
+                optional: true
+                reqStatus: +st-blessingInhumanStrength
+                text: "I always ate my spinach, which paid off."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-introvert
+                text: "Never was i known to be a sociable person, as i only interact with others when necessary."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-dice-B
+                text: "At age 16 I became a master in the martial arts."
+            },
+            {
+                optional: true
+                reqStatus: +st-die-attack
+                text: "As a teenager I trained to become a fencer."
+            },
+            {
+                optional: true
+                reqStatus: +st-die-defend
+                text: "For a year, I've been employed as a royal guard."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-animaldef-die
+                text: "At university, i studied biology to imitate the advantages of animals."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-feihong-die
+                text: "I traveled the orient and became a personal student of Feihong."
+            },
+            {
+                optional: true
+                reqStatus: +st-die-support
+                text: "While serving in the army, I worked as a messager."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-roulette-die
+                text: "Being a vagrant for some time gave me many different skills."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-musician
+                text: "There is nothing more uplifting to me than making music."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-eldritch-echo
+                text: "I am blessed to have frequent visions of our ancestors, telling me how to perform what I only can envision to be miracles."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-malaria-permanent
+                text: "I suffer from chronic malaria."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-hearingLoss-permanent
+                text: "Unfortunately, Bad hearing has been bestowed on me."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-viewingLoss-permanent
+                text: "Unfortunately, Bad eyesight has been bestowed on me."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-hallucinations
+                text: "Frequently, i see things that aren't there."
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-illOmen
+                text: "I've been cursed by the elder gods."
+            }
+
+        ]
+    }
+
+]
