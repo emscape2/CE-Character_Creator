@@ -5,7 +5,7 @@
     {
         ##sample page
         id: evt-emsc-cc-charcreator-dicechoice
-        text: "Were you rather normal, or someone special?."
+        text: "As I looked into the horizon, I took some time introspecting myself. Am I rather normal or someone special?."
         setPartyFlags: +charCreator-dicechoice
         actions:[
             {
@@ -42,7 +42,7 @@
     {
         #second page, only normal die always
         id: evt-emsc-cc-charcreator-seconddiepage
-        text: "Select your second die."
+        text: "What else am I good at?"
         setPartyFlags: +charCreator-second-dicechoice
         select: evt-emsc-cc-charcreator-normaldiepage
     }
@@ -51,32 +51,32 @@
     {
         #special die selection page.
         id: evt-emsc-cc-charcreator-specialdiepage
-        text: "Select a special die."
+        text: "What makes me Special?"
         actions:[
             {
-                actionText: "Shaman Die"
+                actionText: "I have mystical powers"
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
             {
                 #only if oriental exploration mod is turned on
                 reqPartyFlags: +emsc-oo-active
-                actionText: "Martial Artist Die"
+                actionText: "I studied martial arts"
                 setStatus: +st-emsc-dice-B
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Animal Attack Die"
+                actionText: "I shapeshift into animals offensively"
                 setStatus: +st-emsc-cc-animalatk-die
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Animal Defence Die"
+                actionText: "I shapeshift into animals defensively"
                 setStatus: +st-emsc-cc-animaldef-die
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Feihong Die"
+                actionText: "I studied martial arts"
                 reqPartyFlags: -emsc-oo-active
                 setStatus: +st-emsc-cc-feihong-die
                 select: evt-emsc-cc-charcreator
@@ -87,25 +87,25 @@
     {
         #normal die selection page, applies possibly twice.
         id: evt-emsc-cc-charcreator-normaldiepage
-        text: "Select a Normal die."
+        text: "I then thinked about my skills, which I have learned over the years. What am I skilled at?"
         actions:[
             {
-                actionText: "Attack Die"
+                actionText: "Combat"
                 setStatus: +st-die-attack
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Defence Die"
+                actionText: "Defense"
                 setStatus: +st-die-defend
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Mind Die"
+                actionText: "Thinker"
                 setStatus: +st-die-support
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Roulette Die (Contains all 6 sides)"
+                actionText: "Flexibility (Contains all 6 sides)"
                 setStatus: +st-emsc-cc-roulette-die
                 select: evt-emsc-cc-charcreator
             }
@@ -116,7 +116,7 @@
         #perk selection page.
         id: evt-emsc-cc-charcreator-perkpage
         setPartyFlags: +charCreator-perkchoice
-        text: "Select a perk."
+        text: "I soon recalled my talents and gifts, which I have acquired over the years that made me a worthy explorer. What abilities did I have that made me stand out?"
         actions:[
             {
                 actionText: "Authorative Leader"
@@ -179,10 +179,10 @@
         #ailment selection page.
         id: evt-emsc-cc-charcreator-ailmentpage
         setPartyFlags: +charCreator-ailmentchoice-start
-        text: "Select an ailment, you can pick a second perk if you pick an ailment."
+        text: "I then took a good look of myself, and think about an event that costed me dearly, which led to my current state. What did I wind up having?"
         actions:[
             {
-                actionText: "None"
+                actionText: "Nothing (No bonus perk)"
                 setPartyFlags: +charCreator-ailmentchoice-finished
                 select: evt-emsc-cc-charcreator
             }
