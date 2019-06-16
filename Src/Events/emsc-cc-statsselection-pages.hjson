@@ -5,17 +5,17 @@
     {
         ##sample page
         id: evt-emsc-cc-charcreator-dicechoice
-        text: "As I looked into the horizon, I took some time introspecting myself. Am I rather normal or someone special?."
+        text: "txt-emsc-cc-dicechoice"
         setPartyFlags: +charCreator-dicechoice
         actions:[
             {
-                actionText: "Normal (2 normal dice)"
+                actionText: "txt-emsc-cc-normal"
                 select: evt-emsc-cc-charcreator
                 setPartyFlags: +charCreator-normal-dicechoice
                 
             }
 
-            {   actionText: "Special (1 normal, 1 special dice)"
+            {   actionText: "txt-emsc-cc-special"
                 select: evt-emsc-cc-charcreator
                 setPartyFlags: +charCreator-special-dicechoice
             }
@@ -42,7 +42,7 @@
     {
         #second page, only normal die always
         id: evt-emsc-cc-charcreator-seconddiepage
-        text: "What else am I good at?"
+        text: "txt-emsc-cc-second-dicechoice"
         setPartyFlags: +charCreator-second-dicechoice
         select: evt-emsc-cc-charcreator-normaldiepage
     }
@@ -51,32 +51,32 @@
     {
         #special die selection page.
         id: evt-emsc-cc-charcreator-specialdiepage
-        text: "What makes me Special?"
+        text: "txt-emsc-cc-specialdie"
         actions:[
             {
-                actionText: "I am a Shaman."
+                actionText: "txt-emsc-cc-shaman"
                 setStatus: +st-emsc-cc-shaman-die
                 select: evt-emsc-cc-charcreator
             }
             {
                 #only if oriental exploration mod is turned on
                 reqPartyFlags: +emsc-oo-active
-                actionText: "I am a master of martial arts."
+                actionText: "txt-emsc-cc-martial"
                 setStatus: +st-emsc-dice-B
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "I am an agressive shape shifter."
+                actionText: "txt-emsc-cc-animalatk"
                 setStatus: +st-emsc-cc-animalatk-die
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "I am a defensive shape shifter."
+                actionText: "txt-emsc-cc-animaldef"
                 setStatus: +st-emsc-cc-animaldef-die
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "I became a personal trainee of Feihong."
+                actionText: "txt-emsc-cc-feihong"
                 reqPartyFlags: -emsc-oo-active
                 setStatus: +st-emsc-cc-feihong-die
                 select: evt-emsc-cc-charcreator
@@ -87,7 +87,7 @@
     {
         #normal die selection page, applies possibly twice.
         id: evt-emsc-cc-charcreator-normaldiepage
-        text: "I then thinked about my skills, which I have learned over the years. What type of person am I?"
+        text: "txt-emsc-cc-normaldie"
         actions:[
             {
                 actionText: "Ruffian"
@@ -116,7 +116,7 @@
         #perk selection page.
         id: evt-emsc-cc-charcreator-perkpage
         setPartyFlags: +charCreator-perkchoice
-        text: "I soon recalled my talents and gifts, which I have acquired over the years that made me a worthy explorer. What abilities did I have that made me stand out?"
+        text: "txt-emsc-cc-perkselection"
         actions:[
             {
                 actionText: "Authorative Leader"
@@ -179,7 +179,7 @@
         #ailment selection page.
         id: evt-emsc-cc-charcreator-ailmentpage
         setPartyFlags: +charCreator-ailmentchoice-start
-        text: "I then took a good look of myself, and think about an event that costed me dearly, which led to my current state. What did I wind up having?"
+        text: "txt-emsc-cc-ailmentselection"
         actions:[
             {
                 actionText: "Nothing (No bonus perk)"

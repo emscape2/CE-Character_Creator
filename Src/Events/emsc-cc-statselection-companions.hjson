@@ -1,7 +1,7 @@
 [ #todo: preview char
     {
         id: evt-emsc-cc-recruitanimal
-        text: "Lastly, I managed to aquire an animal to accompany us in the journey."
+        text: "txt-emsc-cc-recruitanimal"
         setPartyFlags: +charCreator-animalchoice
         actions:
         [
@@ -29,7 +29,7 @@
     }
     {
         id: evt-emsc-cc-recruitnative
-        text: "I know of some natives who would be willing to join me in this venture."
+        text: "txt-emsc-cc-recruitnative"
         setPartyFlags: +charCreator-nativechoice
         actions:
         [
@@ -65,7 +65,7 @@
     }
     {
         id: evt-emsc-cc-recruitlocal
-        text: "I didn't come alone though. as I ought to bring others with me to this expedition, I first made contact with some people in London who would join me."
+        text: "txt-emsc-cc-recruitlocal"
         setPartyFlags: +charCreator-localchoice
         select:
         [

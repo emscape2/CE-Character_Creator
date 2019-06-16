@@ -5,112 +5,117 @@
             {
                 optional: true
                 reqStatus: +st-naturalLeader 
-                text: "From the moment I was little, I always had a tendency to bend people to my will."
+                text: "txt-emsc-cc-naturalLeader"
             },
             {
                 optional: true
                 reqStatus: -st-naturalLeader +st-preacher
-                text: "From the moment I was little, I always had a tendency to bend people to my will."
+                text: "txt-emsc-cc-preacher"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-animalatk-die
-                text: "I was abandoned by my parents and raised by wolves who taught me their way of life. "
+                text: "txt-emsc-cc-animalatk-die"
             },
             {
                 optional: true
                 reqPartyFlags: +charCreator-normal-dicechoice
-                text: "I have worked hard to train my physical and mental capacity."
+                text: "txt-emsc-cc-normal-dicechoice"
             },
             {
                 optional: true
                 reqPartyFlags: +charCreator-special-dicechoice
-                text: "I embraced the subnatural to become a stronger person."
+                text: "txt-emsc-cc-special-dicechoice"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-shaman-die
-                text: "When growing up I trained to become a shaman."
+                text: "txt-emsc-cc-shaman-die"
             },
             {
                 optional: true
                 reqStatus: +st-blessingInhumanStrength
-                text: "I always ate my spinach, which paid off."
+                text: "txt-emsc-cc-blessingInhumanStrength"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-introvert
-                text: "Never was i known to be a sociable person, as i only interact with others when necessary."
+                text: "txt-emsc-cc-introvert"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-dice-B
-                text: "At age 16 I became a master in the martial arts."
+                text: "txt-emsc-cc-dice-B"
             },
             {
                 optional: true
                 reqStatus: +st-die-attack
-                text: "As a teenager I trained to become a fencer."
+                text: "txt-emsc-cc-die-attack"
             },
             {
                 optional: true
                 reqStatus: +st-die-defend
-                text: "For a year, I've been employed as a royal guard."
+                text: "txt-emsc-cc-die-defend"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-animaldef-die
-                text: "At university, i studied biology to imitate the advantages of animals."
+                text: "txt-emsc-cc-animaldef-die"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-feihong-die
-                text: "I traveled the orient and became a personal student of Feihong."
+                text: "txt-emsc-cc-feihong-die"
             },
             {
                 optional: true
                 reqStatus: +st-die-support
-                text: "While serving in the army, I worked as a messager."
+                text: "txt-emsc-cc-die-support"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-roulette-die
-                text: "Being a vagrant for some time gave me many different skills."
+                text: "txt-emsc-cc-roulette-die"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-musician
-                text: "There is nothing more uplifting to me than making music."
+                text: "txt-emsc-cc-musician"
+            },
+            {
+                optional: true
+                reqStatus: +st-blessingHoly
+                text: "txt-emsc-cc-blessingHoly"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-eldritch-echo
-                text: "I am blessed to have frequent visions of our ancestors, telling me how to perform what I only can envision to be miracles."
+                text: "txt-emsc-cc-eldritch-echo"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-malaria-permanent
-                text: "I suffer from chronic malaria."
+                text: "txt-emsc-cc-malaria-permanent"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-hearingLoss-permanent
-                text: "Unfortunately, Bad hearing has been bestowed on me."
+                text: "txt-emsc-cc-hearlingLoss-permanent"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-viewingLoss-permanent
-                text: "Unfortunately, Bad eyesight has been bestowed on me."
+                text: "txt-emsc-cc-viewingLoss-permanent"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-hallucinations
-                text: "Frequently, i see things that aren't there."
+                text: "txt-emsc-cc-hallucinations"
             },
             {
                 optional: true
                 reqStatus: +st-emsc-cc-illOmen
-                text: "I've been cursed by the elder gods."
+                text: "txt-emsc-cc-illOmen"
             }
 
         ]
