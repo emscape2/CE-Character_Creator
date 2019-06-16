@@ -1,0 +1,42 @@
+emsc-txt-sample,Sample Text
+emsc-cc-dicechoice,"As I looked into the horizon, I took some time introspecting myself. Am I rather normal or someone special?"
+emsc-cc-normal,Normal (2 Normal Die)
+emsc-cc-special,"Special (1 Normal, 1 Special Die)"
+emsc-cc-specialdie,What makes me special?
+emsc-cc-shaman,I studied the mystic arts.
+emsc-cc-feihong,I became a personal trainee of Feihong.
+emsc-cc-martial,I am a master of martial arts.
+emsc-cc-animalatk,I am an aggressive shapeshifter.
+emsc-cc-animaldef,I am a defensive shapeshifter.
+emsc-cc-normaldie,"I then thinked about my skills, which I have defined who I am. What type of person am I?"
+emsc-cc-perkselection,"I soon recalled my talents, which I have acquired over the years that made me stand out above the rest. What abilities dio I have?"
+emsc-cc-ailmentselection,"I then recalled my time as another explorer's companion, with an incident that costed me. What did I wind up having?"
+emsc-cc-naturalLeader,"From the moment I was little, I always had a tendency to bend people to my will."
+emsc-cc-preacher,"I spent my youth at the church pulpit, preaching the Word of God."
+emsc-cc-animalatk-die,I was abandoned by my parents and raised by wolves who taught me their way of life.
+emsc-cc-normal-dicechoice,I have worked hard to train my physical and mental capacity.
+emsc-cc-special-dicechoice,I embraced the supernatural to become a stronger person.
+emsc-cc-shaman-die,I took some years of my life learning shamanism in Siberia.
+emsc-cc-blessingInhumanStrength,"With years of training, I have attained peak physical proweress."
+emsc-cc-introvert,"I often kept to myself, and interact with people only by necessity."
+emsc-cc-dice-B,At age 16 I became a master in the martial arts.
+emsc-cc-die-attack,"As a teenager, I trained to become a fencer."
+emsc-cc-die-defend,"For a year, I've been employed as a royal guard."
+emsc-cc-animaldef-die,"I studied zoology in my time in university, and learned to mimic the abilites of animals"
+emsc-cc-feihong-die,I traveled the orient and became Huang Feihong's personal student.
+emsc-cc-die-support,"While serving in the army, I worked as a messager."
+emsc-cc-roulette-die,Being a vagrant for some time gave me many different skills.
+emsc-cc-musician,There is nothing more uplifting to me than making music.
+emsc-cc-eldritch-echo,"I receive visions from the great beyond, often arcane rites and incantations with glimpses of their power"
+emsc-cc-malaria-permanent,"Unfortunately, I suffered from chronic malaria from one of my travels"
+emsc-cc-hearlingLoss-permanent,"Unfortunately, a tragic accident led to my poor hearing"
+emsc-cc-viewingLoss-permanent,"Unfortunately, a tragic accident led to my poor eyesight"
+emsc-cc-hallucinations,"However, I often see things that weren't actually there"
+emsc-cc-illOmen,An accident on my part led me to be seen as a harbringer of doom by others.
+emsc-cc-second-dicechoice,What else am I good at?
+emsc-cc-ailment-bonusperk,"Despite my misfortune, I was able to further improve myself to avoid future situations like this."
+emsc-cc-charCreator-finished,"As I conclude my introspection, I returned my senses to the harbor, and looked around. I am certain that I would make my mark in history."
+emsc-cc-recruitlocal,"I didn't come alone though, as I brought others with me to this expedition. I first made contact with some people in London who would join me."
+emsc-cc-recruitnative,I also know of some natives who would be willing to join me in this venture.
+emsc-cc-recruitanimal,"Lastly, I managed to aquire an animal to accompany us in the journey."
+emsc-cc-blessingHoly,"People often see me as a bringer of good fortune, and appreciate my presence"
