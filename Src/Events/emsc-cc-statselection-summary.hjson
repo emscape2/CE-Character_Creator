@@ -9,6 +9,11 @@
             },
             {
                 optional: true
+                reqStatus: +st-blessingHoly
+                text: "txt-emsc-cc-blessingHoly"
+            },
+            {
+                optional: true
                 reqStatus: -st-naturalLeader +st-preacher
                 text: "txt-emsc-cc-preacher"
             },
@@ -81,11 +86,6 @@
                 optional: true
                 reqStatus: +st-emsc-cc-musician
                 text: "txt-emsc-cc-musician"
-            },
-            {
-                optional: true
-                reqStatus: +st-blessingHoly
-                text: "txt-emsc-cc-blessingHoly"
             },
             {
                 optional: true
