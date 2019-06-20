@@ -98,6 +98,7 @@
             {
                 actionText: "Recruit Shaman."
                 reqPartyFlags: +charCreator-normal-dicechoice #only do so when selecting normal dice to not become op.
+                reqStatus: -st-emsc-cc-introvert                
                 addCharacter: pl-native-starting-shaman
                 select: evt-emsc-cc-charcreator
             }
@@ -107,6 +108,9 @@
             }
         ]
     }
+
+
+
     {
         id: evt-emsc-cc-recruitlocal
         text: "txt-emsc-cc-recruitlocal"
