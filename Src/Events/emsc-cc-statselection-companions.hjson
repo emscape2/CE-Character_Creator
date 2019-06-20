@@ -2,31 +2,74 @@
     {
         id: evt-emsc-cc-recruitanimal
         text: "txt-emsc-cc-recruitanimal"
+        showImage: {src: evt_spec_ship_1.png}
         setPartyFlags: +charCreator-animalchoice
-        actions:
-        [
-            {
-                actionText: "Recruit Water Buffalo."
-                addCharacter: anm-waterBuffalo
-                select: evt-emsc-cc-charcreator
-            }
-            {
-                actionText: "Recruit Arctic Wolf."
-                addCharacter: anm-wolf-arctic
-                select: evt-emsc-cc-charcreator
-            }
-            {
-                actionText: "Recruit Husky."
-                addCharacter: anm-dog-husky
-                select: evt-emsc-cc-charcreator
-            }
-            {
-                actionText: "Recruit Scouting Dog."
-                addCharacter: anm-dog-luis
-                select: evt-emsc-cc-charcreator
-            }
+        partyEvents:[
+            {select: evt-emsc-cc-recruitanimalwaterbuff}
+            {select: evt-emsc-cc-recruitanimalwolf}
+            {select: evt-emsc-cc-recruitanimaldog}
+            {select: evt-emsc-cc-recruitanimaldogscout}
         ]
     }
+    #recruit events for animals
+    
+    {
+        id: evt-emsc-cc-recruitanimalwaterbuff
+        npc: anm-waterBuffalo
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: "Recruit Water Buffalo."
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
+    
+    {
+        id: evt-emsc-cc-recruitanimalwolf
+        npc: anm-wolf-arctic
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: "Recruit Arctic Wolf."
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
+
+    
+    {
+        id: evt-emsc-cc-recruitanimaldog
+        npc: anm-dog-husky
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: "Recruit Husky."
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
+    
+    {
+        id: evt-emsc-cc-recruitanimaldogscout
+        npc: anm-dog-luis
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: "Recruit Scouting Dog."
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
+
     {
         id: evt-emsc-cc-recruitnative
         text: "txt-emsc-cc-recruitnative"
