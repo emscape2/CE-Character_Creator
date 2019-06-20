@@ -54,7 +54,7 @@
     debugCategory: Ailment
     description: "This person bears a cursed mark which brings fear among the superstitious"
     sprite: emsc_cc_st_illOmen.png
-    bonus: {startStanding: -2}
+    bonus: {startStanding: -5}
   }
   
 

@@ -2,7 +2,7 @@
     "frames": [
 	{
 		"filename": "emsc-cc-sprite01.png",
-		"frame": {"x":0,"y":0,"w":10,"h":32},
+		"frame": {"x":0,"y":0,"w":10,"h":24},
 		"rotated": false,
 		"trimmed": false,
 		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},

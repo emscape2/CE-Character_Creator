@@ -31,6 +31,7 @@
         id: evt-emsc-cc-recruitnative
         text: "txt-emsc-cc-recruitnative"
         setPartyFlags: +charCreator-nativechoice
+        showImage: {src: evt_spec_ship_1.png}
         actions:
         [
             {
@@ -115,37 +116,44 @@
         id: evt-emsc-cc-recruitlocalsoldierbrit
         reqPartyFlags: -emsc-cc-brit
         setPartyFlags: +emsc-cc-brit
+        npc: pl-soldier-british
+        npcEvents:{
         actions: [
             {
+            addNPC: true
             actionText: "Recruit Brittish Soldier"
-            addCharacter: pl-soldier-british
             select: evt-emsc-cc-charcreator
             }
-        ]
+        ]}
     }
     {
         id: evt-emsc-cc-recruitlocalsoldierscot
         reqPartyFlags: -emsc-cc-scot
         setPartyFlags: +emsc-cc-scot
+        npc: pl-soldier-scottish
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Scottish Soldier"
-            addCharacter: pl-soldier-scottish
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
-        ]
+        ]}
     }
     {
         id: evt-emsc-cc-recruitlocalmountaintrooper
         reqPartyFlags: -emsc-cc-mount
         setPartyFlags: +emsc-cc-mount
+        npc: pl-mountainTrooper
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Mountain Trooper"
-            addCharacter: pl-mountainTrooper
+            addNPC: true 
             select: evt-emsc-cc-charcreator
             }
         ]
+    }
     }
 
     #utilityrecruitment
@@ -162,37 +170,45 @@
         id: evt-emsc-cc-recruitlocalcultist
         reqPartyFlags: -emsc-cc-cult
         setPartyFlags: +emsc-cc-cult
+        npc: pl-cultist
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Cultist"
-            addCharacter: pl-cultist
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
     {
         id: evt-emsc-cc-recruitlocalcook
         reqPartyFlags: -emsc-cc-cook
         setPartyFlags: +emsc-cc-cook
+        npc: pl-cook
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Cook"
-            addCharacter: pl-cook
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
     {
         id: evt-emsc-cc-recruitlocalsailor
         reqPartyFlags: -emsc-cc-sail
         setPartyFlags: +emsc-cc-sail
+        npc: pl-sailor
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Sailor"
-            addCharacter: pl-sailor
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
-        ]
+        ]}
     }
     
     #communicator
@@ -209,37 +225,46 @@
         id: evt-emsc-cc-recruitlocalmissionary
         reqPartyFlags: -emsc-cc-miss
         setPartyFlags: +emsc-cc-miss
+        npc: pl-missionary
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Missionary"
-            addCharacter: pl-missionary
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
     {
         id: evt-emsc-cc-recruitlocaltrader
         reqPartyFlags: -emsc-cc-trad
         setPartyFlags: +emsc-cc-trad
+        npc: pl-trader
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Trader"
-            addCharacter: pl-trader
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
     {
         id: evt-emsc-cc-recruitlocaltranslator
         reqPartyFlags: -emsc-cc-trans
         setPartyFlags: +emsc-cc-trans
+        npc: pl-translator
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Translator"
-            addCharacter: pl-translator
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
 
 #report / journalist
@@ -255,25 +280,31 @@
         id: evt-emsc-cc-recruitlocalartist
         reqPartyFlags: -emsc-cc-art
         setPartyFlags: +emsc-cc-art
+        npc: pl-artist
+        npcEvents:{
         actions: [
             {
             actionText: "Recruit Artist"
-            addCharacter: pl-artist
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
     {
         id: evt-emsc-cc-recruitlocaljournalist
         reqPartyFlags: -emsc-cc-jour
         setPartyFlags: +emsc-cc-jour
+        npc: pl-tim 
+        npcEvents: {
         actions: [
             {
             actionText: "Recruit Journalist"
-            addCharacter: pl-tim
+            addNPC: true
             select: evt-emsc-cc-charcreator
             }
         ]
+        }
     }
 
 ]
