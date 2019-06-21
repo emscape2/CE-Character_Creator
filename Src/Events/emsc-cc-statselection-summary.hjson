@@ -19,11 +19,6 @@
             },
             {
                 optional: true
-                reqStatus: +st-emsc-cc-animalatk-die
-                text: "txt-emsc-cc-animalatk-die"
-            },
-            {
-                optional: true
                 reqPartyFlags: +charCreator-normal-dicechoice
                 text: "txt-emsc-cc-normal-dicechoice"
             },
@@ -34,33 +29,18 @@
             },
             {
                 optional: true
+                reqStatus: +st-emsc-cc-animalatk-die | +st-animalWhisperer
+                text: "txt-emsc-cc-animalatk-die"
+            },
+            {
+                optional: true
                 reqStatus: +st-emsc-cc-shaman-die
                 text: "txt-emsc-cc-shaman-die"
             },
             {
                 optional: true
-                reqStatus: +st-blessingInhumanStrength
-                text: "txt-emsc-cc-blessingInhumanStrength"
-            },
-            {
-                optional: true
-                reqStatus: +st-emsc-cc-introvert
-                text: "txt-emsc-cc-introvert"
-            },
-            {
-                optional: true
                 reqStatus: +st-emsc-dice-B
                 text: "txt-emsc-cc-dice-B"
-            },
-            {
-                optional: true
-                reqStatus: +st-die-attack
-                text: "txt-emsc-cc-die-attack"
-            },
-            {
-                optional: true
-                reqStatus: +st-die-defend
-                text: "txt-emsc-cc-die-defend"
             },
             {
                 optional: true
@@ -74,13 +54,33 @@
             },
             {
                 optional: true
+                reqStatus: +st-emsc-cc-roulette-die
+                text: "txt-emsc-cc-roulette-die"
+            },
+            {
+                optional: true
+                reqStatus: +st-blessingInhumanStrength
+                text: "txt-emsc-cc-blessingInhumanStrength"
+            },
+            {
+                optional: true
+                reqStatus: +st-emsc-cc-introvert
+                text: "txt-emsc-cc-introvert"
+            },
+            {
+                optional: true
                 reqStatus: +st-die-support
                 text: "txt-emsc-cc-die-support"
             },
             {
                 optional: true
-                reqStatus: +st-emsc-cc-roulette-die
-                text: "txt-emsc-cc-roulette-die"
+                reqStatus: +st-die-attack
+                text: "txt-emsc-cc-die-attack"
+            },
+            {
+                optional: true
+                reqStatus: +st-die-defend
+                text: "txt-emsc-cc-die-defend"
             },
             {
                 optional: true
