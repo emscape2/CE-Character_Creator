@@ -1,8 +1,8 @@
 [
   {
     id: st-emsc-cc-roulette-die
-    title: "Jack of all Traits"
-    description: "Become a jack of all traits with this die."
+    title: "txt-emsc-cc-perk-die-jack"
+    description: "txt-emsc-cc-perk-die-jack-desc"
     debugCategory: Explorer Perk
     sprite: emsc_cc_st_jack.png
     isPerk: true
@@ -11,8 +11,8 @@
 
   {
     id: st-emsc-cc-shaman-die
-    title: "Shaman"
-    description: "Become a shaman with this die."
+    title: "txt-emsc-cc-perk-die-shaman"
+    description: "txt-emsc-cc-perk-die-shaman-desc"
     debugCategory: Explorer Perk
     sprite: res_status_pureMind.png
     isPerk: true
@@ -20,8 +20,8 @@
   }
 {
     id: st-emsc-cc-feihong-die
-    title: "Feihong Die"
-    description: "Become a martial Master with this die."
+    title: "txt-emsc-cc-perk-die-feihong"
+    description: "txt-emsc-cc-perk-die-feihong-desc"
     debugCategory: Explorer Perk
     sprite: emsc_cc_st_power.png
     bonus: {dice: dc-feihong, maxHealth: -3}
