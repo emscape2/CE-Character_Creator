@@ -21,6 +21,10 @@
       hasTinted: false
     },
     {
+      file: CharacterCreator/images/charsprites-w-1-riding.json
+      hasTinted: false
+    },
+    {
       file: CharacterCreator/images/statusses.json
       hasTinted: false
     },

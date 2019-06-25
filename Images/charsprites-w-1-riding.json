@@ -1,0 +1,76 @@
+{
+    "frames": [
+	{
+		"filename": "emsc-cc-sprite01_mounted.png",
+		"frame": {"x":0,"y":0,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.9,"y":1.1}
+	},
+	{
+		"filename": "emsc-cc-sprite02_mounted.png",
+		"frame": {"x":10,"y":0,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.9,"y":1.1}
+	},
+    {
+		"filename": "emsc-cc-sprite03_mounted.png",
+		"frame": {"x":20,"y":0,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.9,"y":1.0}
+	},
+	{
+		"filename": "emsc-cc-sprite04_mounted.png",
+		"frame": {"x":30,"y":0,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.7,"y":1.2}
+	},
+    {
+		"filename": "emsc-cc-sprite05_mounted.png",
+		"frame": {"x":0,"y":24,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.9,"y":1}
+	},
+	{
+		"filename": "emsc-cc-sprite06_mounted.png",
+		"frame": {"x":10,"y":24,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.9,"y":1.1}
+	},
+    {
+		"filename": "emsc-cc-sprite07_mounted.png",
+		"frame": {"x":20,"y":24,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.7,"y":1.1}
+	},
+	{
+		"filename": "emsc-cc-sprite08_mounted.png",
+		"frame": {"x":30,"y":24,"w":10,"h":24},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":24},
+		"sourceSize": {"w":10,"h":24},
+		"pivot": {"x":0.5,"y":1.1}
+	}
+]
+}

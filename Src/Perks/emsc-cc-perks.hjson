@@ -91,5 +91,6 @@
     title: "Character Creator"
     description: "Customize the abilities and perks of this character."
     debugCategory: Explorer Perk
+    sprite: res_status_pureMind.png
   }
 ]

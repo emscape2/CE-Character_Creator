@@ -123,7 +123,7 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-torch: 4, it-spear: 3, it-ammo: 3, it-tinCans: 12}
+    items: {it-torch: 4, it-telescope: 1 , it-ammo: 3, it-tinCans: 12}
   }
 
   
@@ -145,7 +145,7 @@
     levels: [
       {statuses: st-emsc-cc-customChar}
     ]
-    items: {it-chocolate: 8, it-marbles: 3, it-telescope: 1, it-climbingGear: 5}
+    items: {it-chocolate: 8, it-marbles: 3, it-spear: 3, it-climbingGear: 5}
   }
   
   {

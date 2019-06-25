@@ -62,7 +62,7 @@
                 #only if oriental exploration mod is turned on
                 reqPartyFlags: +emsc-oo-active
                 actionText: "txt-emsc-cc-martial"
-                setStatus: +st-emsc-dice-B
+                setStatus: +st-emsc-dice-B +st-emsc-dice-chi
                 select: evt-emsc-cc-charcreator
             }
             {
