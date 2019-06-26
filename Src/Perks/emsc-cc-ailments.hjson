@@ -48,11 +48,11 @@
 
  {
     id: st-emsc-cc-illOmen
-    title: "Ill Omen"
+    title: "txt-emsc-cc-ailment-illOmen"
     important: true
     flags: +ailment
     debugCategory: Ailment
-    description: "This person bears a cursed mark which brings fear among the superstitious"
+    description: "txt-emsc-cc-ailment-illOmen"
     sprite: emsc_cc_st_illOmen.png
     bonus: {startStanding: -5}
   }

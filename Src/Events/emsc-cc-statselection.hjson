@@ -99,7 +99,7 @@
         setPartyFlags: +charCreator-Finished
         actions: [
             {
-                actionText: "Adventure ho!"
+                actionText: "txt-emsc-cc-adventureho"
 	            select: evt-harbor-eventSelection
             }
         ]

@@ -20,7 +20,7 @@
             actions: [
                 {
                 addNPC: true
-                actionText: "Recruit Water Buffalo."
+                actionText: txt-anm-waterBuffalo-title
                 select: evt-emsc-cc-charcreator
                 }
             ]
@@ -49,7 +49,7 @@
             actions: [
                 {
                 addNPC: true
-                actionText: "Recruit Husky."
+                actionText: txt-anm-dog-husky-title
                 select: evt-emsc-cc-charcreator
                 }
             ]
@@ -78,25 +78,25 @@
         actions:
         [
             {
-                actionText: "Recruit Warrior."
+                actionText: txt-evt-village-recruit-warrior-action
                 addCharacter: pl-native-starting-warrior
                 reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Recruit Animal Handler."
+                actionText: txt-evt-village-recruit-animalHandler-action
                 addCharacter: pl-native-starting-animalHandler
                 reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Recruit Scout."
+                actionText: txt-evt-village-recruit-scout-action
                 addCharacter: pl-native-starting-scout
                 reqStatus: -st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Recruit Shaman."
+                actionText: txt-evt-village-recruit-shaman-action
                 reqPartyFlags: +charCreator-normal-dicechoice #only do so when selecting normal dice to not become op.
                 reqStatus: -st-emsc-cc-introvert                
                 addCharacter: pl-native-starting-shaman
@@ -168,7 +168,7 @@
         actions: [
             {
             addNPC: true
-            actionText: "Recruit Brittish Soldier"
+            actionText: txt-evt-harbor-recruit-soldierBritish-action
             select: evt-emsc-cc-charcreator
             }
         ]}
@@ -181,7 +181,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Scottish Soldier"
+            actionText: txt-evt-harbor-recruit-soldierBritish-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -195,7 +195,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Mountain Trooper"
+            actionText: txt-evt-harbor-recruit-mountainTrooper-action
             addNPC: true 
             select: evt-emsc-cc-charcreator
             }
@@ -221,7 +221,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Cultist"
+            actionText: txt-evt-harbor-recruit-cultist-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -236,7 +236,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Cook"
+            actionText: txt-evt-harbor-recruit-cook-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -251,7 +251,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Sailor"
+            actionText: txt-evt-harbor-recruit-sailor-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -276,7 +276,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Missionary"
+            actionText: txt-evt-harbor-recruit-missionary-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -291,7 +291,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Trader"
+            actionText:  txt-evt-harbor-recruit-parsiTrader-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -306,7 +306,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Translator"
+            actionText: txt-evt-harbor-recruit-persianTranslator-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
@@ -331,7 +331,7 @@
         npcEvents:{
         actions: [
             {
-            actionText: "Recruit Artist"
+            actionText: txt-evt-harbor-recruit-artist-action
             addNPC: true
             select: evt-emsc-cc-charcreator
             }

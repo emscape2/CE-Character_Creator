@@ -42,8 +42,23 @@ emsc-cc-recruitanimal,"Lastly, I managed to aquire an animal to accompany us in 
 emsc-cc-blessingHoly,I am blessed to be born with pagan markings.
 emsc-cc-perk-die-jack-desc,Become a jack of all traits with this die.
 emsc-cc-perk-die-jack,Jack of all Traits
-emsc-cc-perk-die-shaman-desc, Grants a shaman die.
-emsc-cc-perk-die-shaman, Shaman
-emsc-cc-perk-die-feihong, Kwong Kei-tim
-emsc-cc-perk-die-feihong-desc, Become a martial Master with this die.
-
+emsc-cc-perk-die-shaman-desc,Grants a shaman die.
+emsc-cc-perk-die-shaman,Shaman
+emsc-cc-perk-die-feihong,Kwong Kei-tim
+emsc-cc-perk-die-feihong-desc,Become a martial Master with this die.
+emsc-cc-perk-die-animalatk-desc,This character has an extra shape shifter die.
+emsc-cc-perk-die-animalatk,Agressive Shape Shifter
+emsc-cc-perk-eldritch,Eldritch Echo 
+emsc-cc-perk-eldritch-desc,Gains one random tome every 30 days.
+emsc-cc-perk-die-animaldef,Defensive Shape Shifter
+emsc-cc-perk-die-animaldef-desc,Gain shape shifter die.
+emsc-cc-perk-introvert,Introverted
+emsc-cc-perk-introvert-desc,"Have very high sanity, but keep small track size"
+emsc-cc-perk-musician,Musician
+emsc-cc-perk-musician-desc,Bonus sanity from using musical instruments
+emsc-cc-perk-charCreator,Character Creator
+emsc-cc-perk-charCreator-desc,Customize the abilities and perks of this character.
+emsc-cc-ailment-IllOmen,Ill Omen
+emsc-cc-ailment-illOmen-desc,This character bears a cursed mark which brings fear among the superstitious.
+emsc-cc-perkselection-noailment,Nothing (No bonus perk)
+emsc-cc-adventureho,Adventure ho!

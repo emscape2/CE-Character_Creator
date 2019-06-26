@@ -90,22 +90,22 @@
         text: "txt-emsc-cc-normaldie"
         actions:[
             {
-                actionText: "Ruffian"
+                actionText: txt-pk-die-attack-title
                 setStatus: +st-die-attack
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Protector"
+                actionText: txt-pk-die-defend-title
                 setStatus: +st-die-defend
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Adept"
+                actionText: txt-pk-die-support-title
                 setStatus: +st-die-support
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Jack of all Traits"
+                actionText: "txt-emsc-cc-perk-die-jack"
                 setStatus: +st-emsc-cc-roulette-die
                 select: evt-emsc-cc-charcreator
             }
@@ -119,7 +119,7 @@
         text: "txt-emsc-cc-perkselection"
         actions:[
             {
-                actionText: "Authorative Leader"
+                actionText: txt-pk-naturalLeader-title
                 reqStatus: -st-emsc-cc-introvert -st-naturalLeader
                 setStatus: +st-naturalLeader
                 select: evt-emsc-cc-charcreator
@@ -132,43 +132,43 @@
             #    select: evt-emsc-cc-charcreator
             #}
             {
-                actionText: "Inhuman Strength"
+                actionText: txt-st-blessingInhumanStrength-title
                 reqStatus: -st-blessingInhumanStrength
                 setStatus: +st-blessingInhumanStrength
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Holy Marking"
+                actionText: txt-st-blessingHoly-title
                 reqStatus: -st-blessingHoly -st-emsc-cc-illOmen
                 setStatus: +st-blessingHoly
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Animal Whisperer"
+                actionText: txt-pk-animalWhisperer-title
                 reqStatus: -st-animalWhisperer
                 setStatus: +st-animalWhisperer
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Preacher"
+                actionText: txt-pk-preacher-title
                 reqStatus: -st-preacher -st-emsc-cc-introvert
                 setStatus: +st-preacher 
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Introverted"
+                actionText: emsc-cc-perk-introvert
                 reqStatus: -st-emsc-cc-introvert -st-naturalLeader -st-preacher
                 setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Eldritch Echo"
+                actionText: emsc-cc-perk-eldritch
                 reqStatus: -st-emsc-cc-eldritch-echo
                 setStatus: +st-emsc-cc-eldritch-echo
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Musician"
+                actionText: emsc-cc-perk-musician
                 reqStatus: -st-emsc-cc-musician
                 setStatus: +st-emsc-cc-musician
                 select: evt-emsc-cc-charcreator
@@ -182,37 +182,37 @@
         text: "txt-emsc-cc-ailmentselection"
         actions:[
             {
-                actionText: "Nothing (No bonus perk)"
+                actionText: ""
                 setPartyFlags: +charCreator-ailmentchoice-finished
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Chronic malaria"
+                actionText: txt-st-malaria-title
                 setStatus: +st-emsc-cc-malaria-permanent
                 setPartyFlags: +charCreator-ailmentchoice-ailment
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Bad ears"
+                actionText: txt-st-hearingLoss-title
                 setStatus: +st-emsc-cc-hearingLoss-permanent
                 setPartyFlags: +charCreator-ailmentchoice-ailment
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: "Bad eyesight"
+                actionText: txt-st-viewingLoss-title
                 setStatus: +st-emsc-cc-viewingLoss-permanent
                 setPartyFlags: +charCreator-ailmentchoice-ailment
                 select: evt-emsc-cc-charcreator
             }
             {
 
-                actionText: "Hallucinations"
+                actionText: txt-st-hallucinations-title
                 setStatus: +st-emsc-cc-hallucinations
                 setPartyFlags: +charCreator-ailmentchoice-ailment
                 select:  evt-emsc-cc-charcreator
             }
             {
-                actionText: "Ill Omen"
+                actionText: "txt-emsc-cc-ailment-IllOmen"
                 reqStatus: -st-blessingHoly
                 setStatus: +st-emsc-cc-illOmen
                 setPartyFlags: +charCreator-ailmentchoice-ailment

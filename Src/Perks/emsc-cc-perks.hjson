@@ -29,8 +29,8 @@
   
 {
     id: st-emsc-cc-animalatk-die
-    title: "Agressive Shape Shifter"
-    description: "Gain shape shifter die."
+    title: "txt-emsc-cc-perk-die-animalatk"
+    description: "txt-emsc-cc-perk-die-animalatk-desc"
     debugCategory: Explorer Perk
     sprite: emsc_cc_st_claw.png
     bonus: {dice: dc-emsc-cc-beastatk}
@@ -39,8 +39,8 @@
   
 {
    id: st-emsc-cc-eldritch-echo
-   title: "Eldritch Echo"
-   description: "Gains one random tome every 30 days."
+   title: "txt-emsc-cc-perk-eldritch"
+   description: "txt-emsc-cc-perk-eldritch-desc"
    isPerk: true
    sprite: emsc_cc_st_eldrich.png
    dayEvents: {
@@ -53,8 +53,8 @@
 
 {
     id: st-emsc-cc-animaldef-die
-    title: "Defensive Shape Shifter"
-    description: "Gain shape shifter die."
+    title: "txt-emsc-cc-perk-die-animaldef"
+    description: "txt-emsc-cc-perk-die-animaldef-desc"
     debugCategory: Explorer Perk
     sprite: emsc_cc_st_animalDef.png
     bonus: {dice: dc-emsc-cc-beastdef}
@@ -62,8 +62,8 @@
 
 {
   id: st-emsc-cc-introvert
-  title: "Introvered"
-  description: "Have very high sanity, but keep small track size."
+  title: "txt-emsc-cc-perk-introvert"
+  description: "txt-emsc-cc-perk-introvert-desc"
   sprite: emsc_cc_st_introvert.png
   bonus: {maxUnitCount: -2, maxSanity: 40}
 }
@@ -71,25 +71,19 @@
 
 {
    id: st-emsc-cc-musician
-   title: "Musician"
-   description: "Bonus sanity from using musical instruments"
+   title: "txt-emsc-cc-perk-musician"
+   description: "txt-txt-emsc-cc-perk-musician-desc"
    isPerk: true
    sprite: emsc_cc_st_musician.png
    debugCategory: Unit Perk
  }
 
-{
-   id: st-emsc-cc-archeologist
-   title: "Archeologist"
-   sprite: emsc_cc_st_archeologist.png
-   description: "Increases tusk finds from elephant and mammoth graveyards"
-}
 
 {
     #this should be attached to the explorers which use character creation
     id: st-emsc-cc-customChar
-    title: "Character Creator"
-    description: "Customize the abilities and perks of this character."
+    title: "txt-emsc-cc-perk-charCreator"
+    description: "txt-emsc-cc-perk-charCreator"
     debugCategory: Explorer Perk
     sprite: res_status_pureMind.png
   }
