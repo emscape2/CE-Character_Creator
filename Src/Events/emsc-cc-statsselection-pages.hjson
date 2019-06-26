@@ -156,19 +156,19 @@
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: emsc-cc-perk-introvert
+                actionText: txt-emsc-cc-perk-introvert
                 reqStatus: -st-emsc-cc-introvert -st-naturalLeader -st-preacher
                 setStatus: +st-emsc-cc-introvert
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: emsc-cc-perk-eldritch
+                actionText: txt-emsc-cc-perk-eldritch
                 reqStatus: -st-emsc-cc-eldritch-echo
                 setStatus: +st-emsc-cc-eldritch-echo
                 select: evt-emsc-cc-charcreator
             }
             {
-                actionText: emsc-cc-perk-musician
+                actionText: txt-emsc-cc-perk-musician
                 reqStatus: -st-emsc-cc-musician
                 setStatus: +st-emsc-cc-musician
                 select: evt-emsc-cc-charcreator
@@ -182,7 +182,7 @@
         text: "txt-emsc-cc-ailmentselection"
         actions:[
             {
-                actionText: ""
+                actionText: "txt-emsc-cc-perkselection-noailment"
                 setPartyFlags: +charCreator-ailmentchoice-finished
                 select: evt-emsc-cc-charcreator
             }
