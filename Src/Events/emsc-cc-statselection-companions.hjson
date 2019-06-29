@@ -75,33 +75,19 @@
         text: "txt-emsc-cc-recruitnative"
         setPartyFlags: +charCreator-nativechoice
         showImage: {src: evt_spec_ship_1.png}
-        actions:
+        partyEvents:
         [
+            {select:  evt-emsc-cc-recruitnative-warrior}
+            {select:  evt-emsc-cc-recruitnative-animalhandler}
+            {select:  evt-emsc-cc-recruit-nativescout}            
             {
-                actionText: txt-evt-village-recruit-warrior-action
-                addCharacter: pl-native-starting-warrior
-                reqStatus: -st-emsc-cc-introvert
-                select: evt-emsc-cc-charcreator
-            }
-            {
-                actionText: txt-evt-village-recruit-animalHandler-action
-                addCharacter: pl-native-starting-animalHandler
-                reqStatus: -st-emsc-cc-introvert
-                select: evt-emsc-cc-charcreator
-            }
-            {
-                actionText: txt-evt-village-recruit-scout-action
-                addCharacter: pl-native-starting-scout
-                reqStatus: -st-emsc-cc-introvert
-                select: evt-emsc-cc-charcreator
-            }
-            {
-                actionText: txt-evt-village-recruit-shaman-action
                 reqPartyFlags: +charCreator-normal-dicechoice #only do so when selecting normal dice to not become op.
-                reqStatus: -st-emsc-cc-introvert                
-                addCharacter: pl-native-starting-shaman
-                select: evt-emsc-cc-charcreator
+                optional: true
+                select: evt-emsc-cc-recruit-shaman
             }
+        ]
+        actions:[
+            
             {
                 actionText: "Recruit None."
                 select: evt-emsc-cc-charcreator
@@ -109,7 +95,63 @@
         ]
     }
 
+    {
+        id: evt-emsc-cc-recruitnative-warrior
+        npc: pl-native-starting-warrior
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: txt-evt-village-recruit-warrior-action
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
 
+    {
+        id: evt-emsc-cc-recruitnative-animalhandler
+        npc: pl-native-starting-animalHandler
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: txt-evt-village-recruit-animalHandler-action
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
+
+    
+    {
+        id: evt-emsc-cc-recruit-nativescout
+        npc: pl-native-starting-scout
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: txt-evt-village-recruit-scout-action
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
+
+
+    {
+        id: evt-emsc-cc-recruit-shaman
+        npc: pl-native-starting-shaman
+        npcEvents:{
+            actions: [
+                {
+                addNPC: true
+                actionText: txt-evt-village-recruit-shaman-action
+                select: evt-emsc-cc-charcreator
+                }
+            ]
+        }
+    }
 
     {
         id: evt-emsc-cc-recruitlocal

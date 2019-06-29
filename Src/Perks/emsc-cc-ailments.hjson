@@ -48,11 +48,11 @@
 
  {
     id: st-emsc-cc-illOmen
-    title: "txt-emsc-cc-ailment-illOmen"
+    title: "txt-emsc-cc-ailment-IllOmen"
     important: true
     flags: +ailment
     debugCategory: Ailment
-    description: "txt-emsc-cc-ailment-illOmen"
+    description: "txt-emsc-cc-ailment-IllOmen-desc"
     sprite: emsc_cc_st_illOmen.png
     bonus: {startStanding: -5}
   }
