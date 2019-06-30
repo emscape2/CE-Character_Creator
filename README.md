@@ -1,13 +1,29 @@
 # CE-Character_Creator
 Character creator for the Curious Expedition.
 
+Actions for initial release:
+- create a icon
+- write a description for the mod inside of the game
+- write a page for steam, and hand it over to one of Emiels marketing guys for a quick checkup.
+- 
+
+Actions for first patch:
+- four extra characters
+- world sprites for all characters
+- heads on statue when finishing the expedition for any char
+- remove the "character creation" status after the process is done.
+- preview icons for all perks (for in the perk selection meaning)
+
+
 
 Functions:
 This will add 20 different customisable character templates. These can be picked in the character selection and customised afterwards.
-- 10 for initial version, slightly different starting stats:
-  - 6 extra health
+They have slightly different starting stats, options are:
+  - 2 extra health
   - extra die
-  - gun and scouting dog
+  - carrying capacity
+  - gun
+  - scouting dog
   - polyglot
 
 
