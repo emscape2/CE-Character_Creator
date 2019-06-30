@@ -34,7 +34,7 @@
             actions: [
                 {
                 addNPC: true
-                actionText: "Recruit Arctic Wolf."
+                actionText: "txt-emsc-cc-recruithusky-action"
                 select: evt-emsc-cc-charcreator
                 }
             ]
@@ -63,7 +63,7 @@
             actions: [
                 {
                 addNPC: true
-                actionText: "Recruit Scouting Dog."
+                actionText: "txt-emsc-cc-recruitscoutingdog-action"
                 select: evt-emsc-cc-charcreator
                 }
             ]
@@ -388,7 +388,7 @@
         npcEvents: {
         actions: [
             {
-            actionText: "Recruit Journalist"
+            actionText: "txt-emsc-cc-recruitjournalist-action"
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
