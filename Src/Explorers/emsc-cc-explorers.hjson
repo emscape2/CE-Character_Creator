@@ -13,8 +13,8 @@
     id: sp-emsc-cc-diplomat
     extends: sp-emsc-cc-base
     name: "William Hillington"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-diplomat-title
+    description: txt-sp-emsc-cc-diplomat
     bonus: {capacity: 1}
     alwaysUnlocked: true
     variations: [
@@ -38,8 +38,8 @@
     id: sp-emsc-cc-oldranger
     extends: sp-emsc-cc-base
     name: "John Denver"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-oldranger-title
+    description: txt-sp-emsc-cc-oldranger
     alwaysUnlocked: true
     bonus: {health: 5, capacity: 1}
     variations: [
@@ -61,8 +61,8 @@
     id: sp-emsc-cc-celtic
     extends: sp-emsc-cc-base
     name: "Celine Turner"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-celtic-title
+    description: txt-sp-emsc-cc-celtic
     alwaysUnlocked: true
     bonus: {health: 2, capacity: 2}
     
@@ -85,8 +85,8 @@
     id: sp-emsc-cc-rambo
     extends: sp-emsc-cc-base
     name: "Butch Dunkers"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-rambo-title
+    description: txt-sp-emsc-cc-rambo
     alwaysUnlocked: true
     bonus: {health: 1, capacity: 2}
     variations: [
@@ -108,8 +108,8 @@
     id: sp-emsc-cc-gent
     extends: sp-emsc-cc-base
     name: "Isley dePuce"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-gent-title
+    description: txt-sp-emsc-cc-gent
     alwaysUnlocked: true
     
     variations: [
@@ -131,8 +131,8 @@
     id: sp-emsc-cc-rougue
     extends: sp-emsc-cc-base
     name: "Jack de Monet"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-rougue-title
+    description: txt-sp-emsc-cc-rougue
     alwaysUnlocked: true
     variations: [
       {
@@ -152,8 +152,8 @@
     id: sp-emsc-cc-femalenative
     extends: sp-emsc-cc-base
     name: "Sharisa Morty"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-femalenative-title
+    description: txt-sp-emsc-cc-femalenative
     alwaysUnlocked: true
     bonus: {capacity: 1}
     variations: [
@@ -175,8 +175,8 @@
     id: sp-emsc-cc-nativepriestress
     extends: sp-emsc-cc-base
     name: "Miraya Dorethy"
-    title: txt-sp-ee-diplomat-title
-    description: txt-sp-ee-diplomat
+    title: txt-sp-emsc-cc-nativepriestress-title
+    description: txt-sp-emsc-cc-nativepriestress
     alwaysUnlocked: true
     characters: anm-donkey
     bonus: {capacity: 3}
