@@ -1,0 +1,14 @@
+[
+    
+
+  {
+    id: it-emsc-cc-clayton-rifle
+    name: "txt-emsc-cc-item-claytonsrifle-name"
+    description: "txt-emsc-cc-item-claytonsrifle-desc"
+    extends: it-rifle
+    value: {base: 10, village: 6, karma: 18}
+    noWeight: true
+    dice: dc-emsc-cc-clayton
+  }
+    
+]

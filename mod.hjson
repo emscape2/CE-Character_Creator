@@ -81,7 +81,9 @@
   },
 
 	# Items
-	
+	{
+      import: CharacterCreator/Src/Items/emsc-cc-items.hjson
+  },
 	# Perks
   {
       import: CharacterCreator/Src/Perks/emsc-cc-perks.hjson
