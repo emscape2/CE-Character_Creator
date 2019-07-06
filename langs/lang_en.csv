@@ -9,9 +9,9 @@ emsc-cc-martial,Martial Artistry
 emsc-cc-animalatk,Aggressive Shapeshifting
 emsc-cc-animaldef,Defensive Shapeshifting
 emsc-cc-normaldie,"While staring at the water, I evaluated my prowess. When solving problems, people often describe me as a:"
-emsc-cc-perkselection,"I soon recalled the talents I have acquired over the years. Which abilities do I have?"
-emsc-cc-ailmentselection,"I then recalled my personal defects. What ended up happening to me?"
-emsc-cc-naturalLeader,"I always used to have a tendency to bend people to my will."
+emsc-cc-perkselection,I soon recalled the talents I have acquired over the years. Which abilities do I have?
+emsc-cc-ailmentselection,I then recalled my personal defects. What ended up happening to me?
+emsc-cc-naturalLeader,I always used to have a tendency to bend people to my will.
 emsc-cc-preacher,"I spent my youth at the church pulpit, preaching the Word of God."
 emsc-cc-normal-dicechoice,I have worked hard all my life.
 emsc-cc-special-dicechoice,I have eagerly embraced the supernatural,
@@ -22,18 +22,18 @@ emsc-cc-animaldef-die,and mastered animalistic fighting techniques.
 emsc-cc-feihong-die,as I became Huang Feihong's personal student.
 emsc-cc-blessingInhumanStrength,"With years of training, I have attained peak physical proweress."
 emsc-cc-introvert,"I often kept to myself, and interact with people only by necessity."
-emsc-cc-die-attack,"My childhood is characterized with rowdy street fights."
-emsc-cc-die-defend,"I served the army back when I was drafted."
-emsc-cc-die-support,"I was a diligent student back in university."
-emsc-cc-roulette-die,"Living as a vagrant taught me many skills."
+emsc-cc-die-attack,My childhood is characterized with rowdy street fights.
+emsc-cc-die-defend,I served the army back when I was drafted.
+emsc-cc-die-support,I was a diligent student back in university.
+emsc-cc-roulette-die,Living as a vagrant taught me many skills.
 emsc-cc-musician,Nothing lifts me up like making music.
-emsc-cc-eldritch-echo,"When sleeping, I  embrace visions, often containing arcane rites and incantations."
+emsc-cc-eldritch-echo,"When sleeping, I embrace visions, often containing arcane rites and incantations."
 emsc-cc-malaria-permanent,"Unfortunately, I contracted chronic malaria at one of my travels."
 emsc-cc-hearlingLoss-permanent,"Unfortunately, a tragic accident led to my poor hearing."
 emsc-cc-viewingLoss-permanent,"Unfortunately, a tragic accident resulted into me having poor eyesight."
 emsc-cc-hallucinations,"However, I'm left unable to trust my eyes at unfortunate times."
-emsc-cc-illOmen,"An accident on my part led me to be seen as a harbringer of doom by others."
-emsc-cc-second-dicechoice, "Aside from these skills, there was much more to me. I looked at the horizon and evaluated my personality."
+emsc-cc-illOmen,An accident on my part led me to be seen as a harbringer of doom by others.
+emsc-cc-second-dicechoice,"Aside from these skills, there was much more to me. I looked at the horizon and evaluated my personality."
 emsc-cc-ailment-bonusperk,"Trough misfortune, I became a stronger person."
 emsc-cc-charCreator-finished,"As I conclude my introspection, I returned my senses to the harbor, and looked around. I am certain that I would make my mark in history."
 emsc-cc-recruitlocal,"I didn't come alone though, as I brought others with me to this expedition. I first made contact with some people in London who would join me."
@@ -45,7 +45,7 @@ emsc-cc-perk-die-jack,Jack of all Traits
 emsc-cc-perk-die-shaman-desc,Grants a shaman die.
 emsc-cc-perk-die-shaman,Shaman
 emsc-cc-perk-die-feihong,Kwong Kei-tim
-emsc-cc-perk-die-feihong-desc,Become a martial Master with this die.
+emsc-cc-perk-die-feihong-desc,Become a martial master with this die.
 emsc-cc-perk-die-animalatk-desc,This character has an extra shape shifter die.
 emsc-cc-perk-die-animalatk,Agressive Shape Shifter
 emsc-cc-perk-eldritch,Eldritch Echo 
@@ -66,7 +66,7 @@ emsc-cc-recruitjournalist-action,$name the Journalist
 emsc-cc-recruitscoutingdog-action,Scouting Dog
 emsc-cc-recruithusky-action,Arctic Wolf
 sp-emsc-cc-diplomat,English diplomat for the Empire of France.
-sp-emsc-cc-oldranger,Union veteran seeking fame, fortune and adventure.
+sp-emsc-cc-oldranger,"Union veteran seeking fame, fortune and adventure."
 sp-emsc-cc-celtic,Irish scholar of mysticism and the supernatural.
 sp-emsc-cc-rambo,Mercenary soldier highly experienced in warfare.
 sp-emsc-cc-gent,Newly rich gentleman with a knack for adventurism.
