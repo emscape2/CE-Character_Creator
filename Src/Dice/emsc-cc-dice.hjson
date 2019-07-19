@@ -19,7 +19,7 @@
     faces: teeth spider_1 shell tail taunt blank
   }
   {
-    ##Beast Defence die
+    ##clayton die
     id: dc-emsc-cc-clayton
     sprite: hud_dice_bg_animal_2.png
     faces: rifle rifle sword awarenes awarenes blank

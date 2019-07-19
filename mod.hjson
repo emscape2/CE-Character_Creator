@@ -7,7 +7,7 @@
     version: "1.0"
     defaultLang: en
     preview: emsc-cc-preview.png
-    description: txt-emsc-modinfo-oo
+    description: txt-emsc-cc-mod-description
     mail: emiel@silverentand.eu
   },
   spriteSheets:[

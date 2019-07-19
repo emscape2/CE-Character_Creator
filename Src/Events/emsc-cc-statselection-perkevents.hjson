@@ -4,13 +4,13 @@
         data: [
             {
                 reqStatus: +st-emsc-cc-musician
-                sanity: 20
+                sanity: 22
                 playSound: sfx_totem
                 resetPartyStatus: +aggro
             },
             {
                 reqStatus: -st-emsc-cc-musician
-                sanity: 10
+                sanity: 9
                 playSound: sfx_totem
                 resetPartyStatus: +aggro
             }
@@ -23,13 +23,13 @@
         data: [
              {
                 reqStatus: +st-emsc-cc-musician
-                sanity: 25
+                sanity: 28
                 playSound: sfx_totem
                 resetPartyStatus: +aggro
             },
             {
                 reqStatus: -st-emsc-cc-musician
-                sanity: 15
+                sanity: 13
                 playSound: sfx_totem
                 resetPartyStatus: +aggro
             }
