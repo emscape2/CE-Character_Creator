@@ -1,11 +1,6 @@
 # CE-Character_Creator
 Character creator for the Curious Expedition.
 
-Actions for initial release:
-- create a icon
-- write a description for the mod inside of the game
-- write a page for steam, and hand it over to one of Emiels marketing guys for a quick checkup.
-- 
 
 Actions for first patch:
 - four extra characters
