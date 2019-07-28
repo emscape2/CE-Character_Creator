@@ -21,7 +21,7 @@
       {
         gender: male
         sprite: emsc-cc-sprite01.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite01_world.png
         portrait: emsc-cc-portrait01.png
       }
     ]
@@ -46,7 +46,7 @@
       {
         gender: male
         sprite: emsc-cc-sprite02.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite02_world.png
         portrait: emsc-cc-portrait02.png
       }
     ]
@@ -70,7 +70,7 @@
       {
         gender: female
         sprite: emsc-cc-sprite03.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite03_world.png
         portrait: emsc-cc-portrait03.png
       }
     ]
@@ -93,7 +93,7 @@
       {
         gender: male
         sprite: emsc-cc-sprite04.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite04_world.png
         portrait: emsc-cc-portrait04.png
       }
     ]
@@ -116,7 +116,7 @@
       {
         gender: male
         sprite: emsc-cc-sprite05.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite05_world.png
         portrait: emsc-cc-portrait05.png
       }
     ]
@@ -138,7 +138,7 @@
       {
         gender: male
         sprite: emsc-cc-sprite06.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite06_world.png
         portrait: emsc-cc-portrait06.png
       }
     ]
@@ -160,7 +160,7 @@
       {
         gender: female
         sprite: emsc-cc-sprite07.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite07_world.png
         portrait: emsc-cc-portrait07.png
       }
     ]
@@ -184,7 +184,7 @@
       {
         gender: female
         sprite: emsc-cc-sprite08.png
-        miniSprite: ee_sprite_jargo_mini.png
+        miniSprite: emsc-cc-sprite08_world.png
         portrait: emsc-cc-portrait08.png
       }
     ]
