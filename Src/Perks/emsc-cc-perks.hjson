@@ -85,6 +85,7 @@
     title: "txt-emsc-cc-perk-charCreator"
     description: "txt-emsc-cc-perk-charCreator"
     debugCategory: Explorer Perk
+    buffDays: 1
     sprite: res_status_pureMind.png
   }
 ]
