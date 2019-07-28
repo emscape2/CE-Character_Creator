@@ -4,8 +4,8 @@ Character creator for the Curious Expedition.
 
 Actions for first patch:
 - four extra characters
-- ruffian description contains too many caracters.
-- world sprites for all characters
+V ruffian description contains too many caracters.
+V world sprites for all characters
 - heads on statue when finishing the expedition for any char
 - remove the "character creation" status after the process is done.
 - preview icons for all perks (for in the perk selection meaning)
