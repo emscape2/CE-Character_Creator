@@ -4,7 +4,7 @@
     id: CharacterCreator
     name: "Character Creator"
     authors: "Emscape" #needs to be uploader, so feel free to enter your steam name ;)
-    version: "1.0"
+    version: "1.1"
     defaultLang: en
     preview: emsc-cc-preview.png
     description: txt-emsc-cc-mod-description
