@@ -8,7 +8,7 @@ Actions for first patch:
 - four extra characters
 - heads on statue when finishing the expedition for any char
 - Xremove the "character creation" status after the process is done.
-- preview icons for all perks (for in the perk selection screen)
+- Xpreview icons for all perks (for in the perk selection screen)
 
 
 
