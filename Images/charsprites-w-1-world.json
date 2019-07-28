@@ -1,0 +1,118 @@
+{
+    "frames": [
+	{
+		"filename": "emsc-cc-sprite01_world.png",
+		"frame": {"x":0,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {"w":8,"h":80},
+		"pivot": {"x":0.5,"y":0.5}
+	},
+	{
+		"filename": "emsc-cc-sprite02_world.png",
+		"frame": {"x":8,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+    {
+		"filename": "emsc-cc-sprite03_world.png",
+		"frame": {"x":16,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+	{
+		"filename": "emsc-cc-sprite04_world.png",
+		"frame": {"x":24,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+    {
+		"filename": "emsc-cc-sprite05_world.png",
+		"frame": {"x":32,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+	{
+		"filename": "emsc-cc-sprite06_world.png",
+		"frame": {"x":40,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+    {
+		"filename": "emsc-cc-sprite07_world.png",
+		"frame": {"x":48,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+	{
+		"filename": "emsc-cc-sprite08_world.png",
+		"frame": {"x":56,"y":0,"w":8,"h":80},
+		"rotated": false,
+		"trimmed": false,
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":80},
+		"sourceSize": {
+			"w": 8,
+			"h": 80
+		},
+		"pivot": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	}
+]
+}
