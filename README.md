@@ -10,6 +10,7 @@ Actions for first patch:
 - Xremove the "character creation" status after the process is done.
 - Xpreview icons for all perks (for in the perk selection screen)
 - Janissary still has "Martial Artist" as name
+- Improve the art
 
 
 
