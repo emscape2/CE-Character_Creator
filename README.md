@@ -9,6 +9,7 @@ Actions for first patch:
 - heads on statue when finishing the expedition for any char
 - Xremove the "character creation" status after the process is done.
 - Xpreview icons for all perks (for in the perk selection screen)
+- Janissary still has "Martial Artist" as name
 
 
 
