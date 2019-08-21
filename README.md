@@ -12,6 +12,7 @@ Actions for first patch:
 - Janissary still has "Martial Artist" as name
 - Improve the art
 - Janissary needs only 1 capacity and strong mind 1 when starting not 2
+- Accidentally reintroduced the musician bug
 
 
 Functions:
