@@ -11,7 +11,7 @@ Actions for first patch:
 - Xpreview icons for all perks (for in the perk selection screen)
 - Janissary still has "Martial Artist" as name
 - Improve the art
-
+- Janissary needs only 1 capacity and strong mind 1 when starting not 2
 
 
 Functions:
