@@ -3,13 +3,16 @@ Character creator for the Curious Expedition.
 
 
 Actions for first patch:
+- Xruffian description contains too many caracters.
+- Xworld sprites for all characters
 - four extra characters
-V ruffian description contains too many caracters.
-V world sprites for all characters
 - heads on statue when finishing the expedition for any char
-- remove the "character creation" status after the process is done.
-- preview icons for all perks (for in the perk selection meaning)
-
+- Xremove the "character creation" status after the process is done.
+- Xpreview icons for all perks (for in the perk selection screen)
+- V Janissary still has "Martial Artist" as name
+- V Improve the art
+- V Janissary needs only 1 capacity and strong mind 1 when starting not 2
+- V Accidentally reintroduced the musician bug (Incompatibility with MGGP mod
 
 
 Functions:
