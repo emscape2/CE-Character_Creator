@@ -9,10 +9,10 @@ Actions for first patch:
 - heads on statue when finishing the expedition for any char
 - Xremove the "character creation" status after the process is done.
 - Xpreview icons for all perks (for in the perk selection screen)
-- Janissary still has "Martial Artist" as name
-- Improve the art
-- Janissary needs only 1 capacity and strong mind 1 when starting not 2
-- Accidentally reintroduced the musician bug
+- V Janissary still has "Martial Artist" as name
+- V Improve the art
+- V Janissary needs only 1 capacity and strong mind 1 when starting not 2
+- V Accidentally reintroduced the musician bug (Incompatibility with MGGP mod
 
 
 Functions:
