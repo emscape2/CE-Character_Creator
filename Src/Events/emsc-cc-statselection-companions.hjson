@@ -177,11 +177,17 @@
             { select:  evt-emsc-cc-recruitlocalselectutility } #always have one utility
             { select:  evt-emsc-cc-recruitlocalselectreport } #always have one reporter / journalist
             { select:  evt-emsc-cc-recruitlocalselectcommunicator } #always have one communicator
-            { select:  evt-emsc-cc-recruitlocalselect }
+            { 
+                select:  evt-emsc-cc-recruitlocalselect
+            } #have one random if no OO enabled otherwise 
+          {
+               select:  evt-emsc-cc-recruitlocalselectoriental
+          }#if OO enabled one of those units
         ]
     }
     {
         id: evt-emsc-cc-recruitlocalselect
+        reqPartyFlags: -emsc-oo-active
         select:
         [
             evt-emsc-cc-recruitlocalselectsoldier
@@ -389,6 +395,49 @@
         actions: [
             {
             actionText: "txt-emsc-cc-recruitjournalist-action"
+            addNPC: true
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+        }
+    }
+    #oriental units
+    
+    {
+        id: evt-emsc-cc-recruitlocalselectoriental
+        reqPartyFlags: +emsc-oo-active
+
+        select:
+        [
+            evt-emsc-cc-recruitlocalmartial 
+            evt-emsc-cc-recruitlocaljanissary
+        ]
+    }
+    {
+        id: evt-emsc-cc-recruitlocalmartial
+        reqPartyFlags: -emsc-cc-mart
+        setPartyFlags: +emsc-cc-mart
+        npc: pl-emsc-MartialArtist
+        npcEvents: {
+        actions: [
+            {
+            actionText: "txt-emsc-cc-recruitmartial-action"
+            addNPC: true
+            select: evt-emsc-cc-charcreator
+            }
+        ]
+        }
+    }
+    
+    {
+        id: evt-emsc-cc-recruitlocaljanissary
+        reqPartyFlags: -emsc-cc-janni
+        setPartyFlags: +emsc-cc-janni
+        npc: pl-emsc-janissary
+        npcEvents: {
+        actions: [
+            {
+            actionText: "txt-emsc-cc-recruitjanissary-action"
             addNPC: true
             select: evt-emsc-cc-charcreator
             }
