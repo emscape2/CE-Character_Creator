@@ -193,4 +193,103 @@
     ]
     items: {it-tomePage-waterfall: 3, it-crystalBall: 1, it-nativeTrinket: 3}
   }
+
+  
+  {
+    id: sp-emsc-cc-conancameron
+    extends: sp-emsc-cc-base
+    name: "Conan Cameron"
+    title: txt-sp-emsc-cc-diplomat-title
+    description: txt-sp-emsc-cc-diplomat
+    bonus: {capacity: 2}
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: emsc-cc-sprite01.png
+        miniSprite: emsc-cc-sprite01_world.png
+        portrait: emsc-cc-portrait01.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-whiskey: 3, it-torch: 5, it-nativeTrinket: 1, it-machete: 10}
+  }
+  {
+    id: sp-emsc-cc-deliahshammar
+    extends: sp-emsc-cc-base
+    name: "Deliah Shammar"
+    title: txt-sp-emsc-cc-diplomat-title
+    description: txt-sp-emsc-cc-diplomat
+    bonus: {capacity: 3}
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: emsc-cc-sprite01.png
+        miniSprite: emsc-cc-sprite01_world.png
+        portrait: emsc-cc-portrait01.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-rope: 10, it-shovel: 5, it-marbles: 1, it-dynamite: 5}
+  }
+  {
+    id: sp-emsc-cc-jdautamran
+    extends: sp-emsc-cc-base
+    name: "D'jaut Amran"
+    title: txt-sp-emsc-cc-diplomat-title
+    description: txt-sp-emsc-cc-diplomat
+    bonus: {capacity: 2}
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: emsc-cc-sprite01.png
+        miniSprite: emsc-cc-sprite01_world.png
+        portrait: emsc-cc-portrait01.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-climbingGear: 5, it-shovel: 6, it-pumpkinLantern: 1, it-costonFlare: 3}
+  }
+  
+  {
+    id: sp-emsc-cc-sonjakrasnyy
+    extends: sp-emsc-cc-base
+    name: "Sonja Krasnyy"
+    title: txt-sp-emsc-cc-diplomat-title
+    description: txt-sp-emsc-cc-diplomat
+    bonus: {capacity: 2}
+    alwaysUnlocked: true
+    variations: [
+      {
+        gender: male
+        sprite: emsc-cc-sprite01.png
+        miniSprite: emsc-cc-sprite01_world.png
+        portrait: emsc-cc-portrait01.png
+      }
+    ]
+    levels: [
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+      {statuses: st-emsc-cc-customChar}
+    ]
+    items: {it-voodooDoll: 3, it-chocolate: 6, it-wadjetEye: 1, it-miniPuppets: 3}
+  }
 ]
