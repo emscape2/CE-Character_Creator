@@ -39,7 +39,22 @@
       id: emsc-cc-preview.png
       file: CharacterCreator/images/preview.png
     }
-
+    {
+      id: emsc-cc-ConanCameron.png
+      file: CharacterCreator/images/ConanCameron.png
+    }
+    {
+      id: emsc-cc-DeliahShammar.png
+      file: CharacterCreator/images/DeliahShammar.png
+    }
+    {
+      id: emsc-cc-DjautAmran.png
+      file: CharacterCreator/images/DjautAmran.png
+    }
+    {
+      id: emsc-cc-SonjaKrasnyy.png
+      file: CharacterCreator/images/SonjaKrasnyy.png
+    }
 
 	#Characters
 	

@@ -208,7 +208,7 @@
         gender: male
         sprite: emsc-cc-sprite01.png
         miniSprite: emsc-cc-sprite01_world.png
-        portrait: emsc-cc-portrait01.png
+        portrait: emsc-cc-ConanCameron.png
       }
     ]
     levels: [
@@ -232,7 +232,7 @@
         gender: male
         sprite: emsc-cc-sprite01.png
         miniSprite: emsc-cc-sprite01_world.png
-        portrait: emsc-cc-portrait01.png
+        portrait: emsc-cc-DeliahShammar.png
       }
     ]
     levels: [
@@ -256,7 +256,7 @@
         gender: male
         sprite: emsc-cc-sprite01.png
         miniSprite: emsc-cc-sprite01_world.png
-        portrait: emsc-cc-portrait01.png
+        portrait: emsc-cc-DjautAmran.png
       }
     ]
     levels: [
@@ -281,7 +281,7 @@
         gender: male
         sprite: emsc-cc-sprite01.png
         miniSprite: emsc-cc-sprite01_world.png
-        portrait: emsc-cc-portrait01.png
+        portrait: emsc-cc-SonjaKrasnyy.png
       }
     ]
     levels: [
